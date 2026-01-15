@@ -1,0 +1,45 @@
+You are a Senior Full-Stack Engineer and UI Designer.
+I want you to build "TextileCalc", a global SaaS platform for textile engineering tools.
+
+### 1. Project Setup & Constraints
+- **Stack:** Next.js 14 (App Router), TypeScript, Tailwind CSS.
+- **UI Library:** Install and use **Shadcn/ui** for all components (Card, Input, Select, Button, Form, Table).
+- **Icons:** Lucide React.
+- **i18n (Strict):** Use **next-intl**.
+  - Setup middleware.ts for auto-language detection.
+  - Use `app/[locale]/` routing structure.
+  - Extract ALL text to `messages/en.json` and `messages/zh.json`. NO HARDCODED STRINGS.
+
+### 2. File Structure & Logic
+- Create `utils/calculations.ts`: Put all mathematical formulas here (pure functions).
+- Create `components/calculators/`: Create separate client components for each tool.
+- Create `components/layout/Navbar.tsx`: Include a LanguageSwitcher dropdown.
+
+### 3. Feature Implementation List
+Please scaffold the app and implement the following **Core Tools** first:
+
+**A. Yarn Tools (`/tools/yarn/...`)**
+1. `YarnCountConverter`: Convert Ne, Nm, Tex, Denier (Auto-update on change).
+2. `ResultantCount`: Calculate resultant count for ply yarns (e.g., 2 ply, 3 ply).
+
+**B. Fabric Tools (`/tools/fabric/...`)**
+3. `GSMCalculator`: Inputs (Warp, Weft, EPI, PPI) -> Output (GSM, Oz/yd²).
+
+**C. Apparel Tools (`/tools/apparel/...`)**
+4. `FabricConsumption`: Inputs (Length, Chest, Sleeve, GSM, Wastage) -> Output (Kg/doz).
+5. `CBMCalculator`: Inputs (L, W, H, Qty) -> Output (Total m³, Container suggestion).
+
+### 4. UI/UX Requirements
+- **Home Page:** A "Bento Grid" layout displaying all available tools with icons.
+- **Tool Page Layout:**
+  - Center: The Calculator Card (White bg, shadow-sm).
+  - Bottom: An `<article>` section for SEO text (Fetch title/content from i18n).
+  - **Ads:** Place a responsive `<AdPlaceholder />` component above and below the tool.
+
+### 5. Start Coding
+1. Initialize the project structure.
+2. Setup `next-intl` and middleware.
+3. Create the `calculations.ts` utility file with the formulas for the tools listed above.
+4. Build the Home Page and the Layout.
+
+Go ahead.
