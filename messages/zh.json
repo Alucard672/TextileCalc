@@ -1,0 +1,283 @@
+{
+  "common": {
+    "appName": "TextileCalc",
+    "tagline": "全球纺织工程计算平台",
+    "home": "首页",
+    "tools": "工具",
+    "language": "语言",
+    "english": "English",
+    "chinese": "中文",
+    "spanish": "Español",
+    "hindi": "हिन्दी",
+    "turkish": "Türkçe",
+    "vietnamese": "Tiếng Việt",
+    "indonesian": "Bahasa Indonesia",
+    "portuguese": "Português",
+    "bengali": "বাংলা",
+    "urdu": "اردو",
+    "calculate": "计算",
+    "reset": "重置",
+    "result": "结果",
+    "results": "结果",
+    "optional": "可选",
+    "enterAnyValue": "输入任意值即可自动转换为其他单位",
+    "errors": {
+      "mustBeGreaterThan0": "必须大于 0",
+      "mustBe0OrGreater": "必须大于或等于 0",
+      "mustBeBetween0And100": "必须在 0 到 100 之间",
+      "mustBeAtLeast1": "必须至少为 1"
+    }
+  },
+  "nav": {
+    "home": "首页",
+    "yarnTools": "纱线工具",
+    "fabricTools": "面料工具",
+    "apparelTools": "服装工具"
+  },
+  "tools": {
+    "yarnCountConverter": {
+      "title": "纱支转换器",
+      "description": "在 Ne、Nm、Tex 和 Denier 纱支系统之间转换",
+      "ne": "Ne (英制支数)",
+      "nm": "Nm (公制支数)",
+      "tex": "Tex",
+      "denier": "Denier (旦尼尔)",
+      "seoTitle": "纱支转换器 - Ne、Nm、Tex、Denier 转换工具",
+      "seoDescription": "免费在线纱支转换器。在 Ne、Nm、Tex 和 Denier 系统之间即时转换。纺织工程师必备工具。"
+    },
+    "resultantCount": {
+      "title": "合股纱支数计算器",
+      "description": "计算合股纱的最终支数（例如：32s/2）",
+      "yarnCount": "纱支",
+      "numberOfPlies": "股数",
+      "resultantCount": "合股支数",
+      "addYarn": "添加纱线",
+      "seoTitle": "合股纱支数计算器 - 合股纱支数计算",
+      "seoDescription": "计算合股纱的最终支数。纺织工程和纱线生产必备工具。"
+    },
+    "gsmCalculator": {
+      "title": "GSM 计算器",
+      "description": "根据纱支和密度计算面料克重（GSM 和 Oz/yd²）",
+      "warpCount": "经纱支数 (Ne)",
+      "weftCount": "纬纱支数 (Ne)",
+      "epi": "EPI (每英寸经纱数)",
+      "ppi": "PPI (每英寸纬纱数)",
+      "gsm": "GSM (克/平方米)",
+      "ozYd2": "Oz/yd²",
+      "seoTitle": "GSM 计算器 - 面料克重计算器",
+      "seoDescription": "根据纱支和密度计算面料 GSM 和 Oz/yd²。免费纺织工程计算器。"
+    },
+    "fabricConsumption": {
+      "title": "面料消耗计算器",
+      "description": "计算单件和每打的面料消耗量",
+      "length": "长度 (cm)",
+      "chest": "胸围 (cm)",
+      "sleeve": "袖长 (cm)",
+      "gsm": "GSM (克/平方米)",
+      "wastage": "损耗率 (%)",
+      "consumptionPerPiece": "单件耗料 (kg)",
+      "kgPerDoz": "每打重量 (kg)",
+      "seoTitle": "面料消耗计算器 - 服装面料用量",
+      "seoDescription": "计算服装面料消耗量。服装跟单和成本估算必备工具。"
+    },
+    "cbmCalculator": {
+      "title": "CBM 计算器",
+      "description": "计算集装箱体积并获得集装箱类型建议",
+      "length": "长度 (cm)",
+      "width": "宽度 (cm)",
+      "height": "高度 (cm)",
+      "quantity": "数量 (箱)",
+      "totalCBM": "总体积 (m³)",
+      "containerSuggestion": "集装箱建议",
+      "seoTitle": "CBM 计算器 - 集装箱体积计算器",
+      "seoDescription": "计算集装箱的 CBM（立方米）。为您的货物获取集装箱类型建议。"
+    },
+    "twistCalculator": {
+      "title": "捻度计算器",
+      "description": "TPI 和 TPM 转换，计算捻系数",
+      "tpi": "TPI (每英寸捻数)",
+      "tpm": "TPM (每米捻数)",
+      "yarnCount": "纱支 (Ne)",
+      "twistMultiplier": "捻系数",
+      "seoTitle": "捻度计算器 - TPI TPM 转换及捻系数计算",
+      "seoDescription": "TPI 和 TPM 之间转换，计算纱线捻系数。纺织纺纱必备工具。"
+    },
+    "draftCalculator": {
+      "title": "牵伸计算器",
+      "description": "计算纺纱牵伸倍数",
+      "inputSpeed": "输入速度 (转/分 或 米/分)",
+      "outputSpeed": "输出速度 (转/分 或 米/分)",
+      "frontDiameter": "前罗拉直径 (mm)",
+      "backDiameter": "后罗拉直径 (mm)",
+      "draft": "牵伸倍数",
+      "method": "计算方法",
+      "speedMethod": "速度法",
+      "diameterMethod": "直径法",
+      "seoTitle": "牵伸计算器 - 纺纱牵伸倍数计算",
+      "seoDescription": "使用速度或罗拉直径计算纺纱牵伸倍数。纺织工程必备工具。"
+    },
+    "coverFactor": {
+      "title": "紧度系数计算器",
+      "description": "使用 Pierce 公式计算面料紧度系数",
+      "epi": "EPI (每英寸经纱数)",
+      "ppi": "PPI (每英寸纬纱数)",
+      "warpCount": "经纱支数 (Ne)",
+      "weftCount": "纬纱支数 (Ne)",
+      "coverFactor": "紧度系数",
+      "seoTitle": "紧度系数计算器 - 面料紧度系数 (Pierce 公式)",
+      "seoDescription": "使用 Pierce 公式计算面料紧度系数。面料设计和质量控制必备工具。"
+    },
+    "weaveBeamWeight": {
+      "title": "经轴重量计算器",
+      "description": "计算经轴重量",
+      "length": "经轴长度 (米)",
+      "ends": "头份数",
+      "yarnCountTex": "纱支 (Tex)",
+      "weight": "经轴重量",
+      "unitKg": "公斤",
+      "seoTitle": "经轴重量计算器 - 经轴重量计算",
+      "seoDescription": "根据长度、头份和纱支计算经轴重量。织造准备必备工具。"
+    },
+    "fabricProduction": {
+      "title": "织机产量计算器",
+      "description": "计算织机产量",
+      "rpm": "织机转速 (转/分)",
+      "ppi": "PPI (每英寸纬纱数)",
+      "efficiency": "效率 (%)",
+      "workingHours": "每日工作小时",
+      "hourlyProduction": "每小时产量",
+      "dailyProduction": "每日产量",
+      "unitMh": "米/小时",
+      "unitMday": "米/天",
+      "unitKg": "公斤",
+      "unitM3": "立方米",
+      "unitCm": "厘米",
+      "unitMm": "毫米",
+      "seoTitle": "织机产量计算器 - 织机产量计算",
+      "seoDescription": "根据织机转速、PPI 和效率计算产量。生产计划必备工具。"
+    },
+    "costEstimator": {
+      "title": "成本估算器",
+      "description": "计算包含利润的总生产成本",
+      "yarnPrice": "纱价 (每公斤)",
+      "yarnConsumption": "纱线消耗 (每单位公斤)",
+      "laborCost": "工费 (每单位)",
+      "overhead": "间接费用 (每单位)",
+      "profitMargin": "利润率 (%)",
+      "materialCost": "材料成本",
+      "totalCost": "总成本",
+      "profit": "利润",
+      "sellingPrice": "销售价格",
+      "seoTitle": "成本估算器 - 纺织生产成本计算器",
+      "seoDescription": "计算总生产成本，包括材料、工费、间接费用和利润率。定价必备工具。"
+    },
+    "unitConverter": {
+      "title": "单位换算器",
+      "description": "长度和重量单位换算",
+      "yards": "码",
+      "meters": "米",
+      "pounds": "磅",
+      "kilograms": "公斤",
+      "length": "长度换算",
+      "weight": "重量换算",
+      "seoTitle": "单位换算器 - 长度和重量换算",
+      "seoDescription": "码/米和磅/公斤之间转换。纺织行业必备单位换算工具。"
+    },
+    "fabricShrinkage": {
+      "title": "面料缩水率计算器",
+      "description": "计算水洗后面料缩水百分比",
+      "originalLength": "原始长度 (厘米或英寸)",
+      "afterWashLength": "水洗后长度 (厘米或英寸)",
+      "shrinkage": "缩水率",
+      "seoContent": {
+        "howToUse": "使用方法",
+        "howToUseText": "输入原始长度和水洗后长度，计算器将计算缩水百分比。",
+        "formula": "公式",
+        "formulaText": "缩水率 % = ((原始长度 - 水洗后长度) / 原始长度) × 100",
+        "importance": "重要性",
+        "importanceText": "了解面料缩水率对于服装尺寸、纸样制作和质量控制至关重要。"
+      },
+      "seoTitle": "面料缩水率计算器 - 计算面料缩水百分比",
+      "seoDescription": "计算水洗后面料缩水百分比。服装生产和质量控制必备工具。"
+    },
+    "gsmToOzConverter": {
+      "title": "GSM 转 Oz/yd² 转换器",
+      "description": "在 GSM 和 Oz/yd² 面料重量单位之间转换",
+      "gsm": "GSM (克/平方米)",
+      "ozYd2": "Oz/yd²",
+      "hint": "在任一字段输入值即可自动转换",
+      "seoContent": {
+        "howToUse": "使用方法",
+        "howToUseText": "在 GSM 或 Oz/yd² 字段输入值，将自动转换为另一个单位。",
+        "conversion": "转换公式",
+        "conversionText": "Oz/yd² = GSM / 33.906 | GSM = Oz/yd² × 33.906",
+        "commonUsage": "常用场景",
+        "usageText": "GSM 在大多数国家是标准单位，而 Oz/yd² 在美国纺织行业常用。"
+      },
+      "seoTitle": "GSM 转 Oz/yd² 转换器 - 面料重量单位转换",
+      "seoDescription": "在 GSM 和 Oz/yd² 面料重量单位之间转换。免费在线纺织单位转换工具。"
+    },
+    "yarnWeight": {
+      "title": "纱线重量计算器",
+      "description": "根据长度和支数计算纱线重量",
+      "countSystem": "支数系统",
+      "length": "长度 (米)",
+      "yarnCount": "纱线支数",
+      "weight": "重量",
+      "unitKg": "公斤",
+      "seoContent": {
+        "howToUse": "使用方法",
+        "howToUseText": "选择支数系统（Ne 或 Tex），输入纱线长度和支数。计算器将计算纱线重量。",
+        "formula": "公式",
+        "formulaText": "重量 (公斤) = (长度 × Tex) / 1000，其中对于英制支数，Tex = 590.5 / Ne",
+        "applications": "应用场景",
+        "applicationsText": "用于材料规划、成本估算和生产计算。"
+      },
+      "seoTitle": "纱线重量计算器 - 根据长度和支数计算纱线重量",
+      "seoDescription": "根据长度和支数计算纱线重量。纱线生产和材料规划必备工具。"
+    },
+    "fabricYardage": {
+      "title": "面料码数计算器",
+      "description": "根据长度和宽度计算面料码数",
+      "unitSystem": "单位系统",
+      "metric": "公制 (米, 厘米)",
+      "imperial": "英制 (码, 英寸)",
+      "lengthMeters": "长度 (米)",
+      "lengthYards": "长度 (码)",
+      "widthCm": "宽度 (厘米)",
+      "widthInches": "宽度 (英寸)",
+      "yardage": "码数",
+      "unitYd2": "平方码",
+      "seoContent": {
+        "howToUse": "使用方法",
+        "howToUseText": "选择单位系统（公制或英制），输入面料长度和宽度。计算器将计算平方码数。",
+        "formula": "公式",
+        "formulaText": "码数 (平方码) = 长度 (码) × 宽度 (码)",
+        "applications": "应用场景",
+        "applicationsText": "面料采购、成本计算和库存管理必备工具。"
+      },
+      "seoTitle": "面料码数计算器 - 计算面料码数",
+      "seoDescription": "根据长度和宽度计算面料码数。面料采购和库存管理必备工具。"
+    }
+  },
+  "home": {
+    "heroTitle": "纺织工程计算器",
+    "heroSubtitle": "为纺织工程师、跟单员和设计师提供的专业工具",
+    "searchPlaceholder": "搜索工具...",
+    "categories": {
+      "yarn": "纱线工具",
+      "fabric": "面料工具",
+      "apparel": "服装工具"
+    }
+  },
+  "footer": {
+    "description": "专业纺织工程计算工具",
+    "copyright": "© 2024 TextileCalc. 保留所有权利。"
+  },
+  "ads": {
+    "title": "广告招商",
+    "description": "触达全球纺织工程师、跟单员和设计师 | 高流量、精准用户群体",
+    "cta": "联系我们",
+    "sponsored": "广告"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "common": {
+    "appName": "TextileCalc",
+    "tagline": "Global Textile Engineering Platform",
+    "home": "Home",
+    "tools": "Tools",
+    "language": "Language",
+    "english": "English",
+    "chinese": "Chinese",
+    "spanish": "Spanish",
+    "hindi": "Hindi",
+    "turkish": "Turkish",
+    "vietnamese": "Vietnamese",
+    "indonesian": "Indonesian",
+    "portuguese": "Portuguese",
+    "bengali": "Bengali",
+    "urdu": "Urdu",
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "result": "Hasil",
+    "results": "Hasil",
+    "optional": "Opsional",
+    "enterAnyValue": "Masukkan nilai apa saja dan akan dikonversi secara otomatis ke unit lain",
+    "errors": {
+      "mustBeGreaterThan0": "harus lebih besar dari 0",
+      "mustBe0OrGreater": "harus 0 atau lebih besar",
+      "mustBeBetween0And100": "harus antara 0 dan 100",
+      "mustBeAtLeast1": "harus setidaknya 1"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "yarnTools": "Yarn Tools",
+    "fabricTools": "Fabric Tools",
+    "apparelTools": "Apparel Tools"
+  },
+  "tools": {
+    "yarnCountConverter": {
+      "title": "Yarn Count Converter",
+      "description": "Convert between Ne, Nm, Tex, and Denier yarn count systems",
+      "ne": "Ne (English Count)",
+      "nm": "Nm (Metric Count)",
+      "tex": "Tex",
+      "denier": "Denier",
+      "seoTitle": "Yarn Count Converter - Ne, Nm, Tex, Denier Conversion Tool",
+      "seoDescription": "Free online yarn count converter. Convert between Ne, Nm, Tex, and Denier systems instantly. Essential tool for textile engineers."
+    },
+    "resultantCount": {
+      "title": "Resultant Count Calculator",
+      "description": "Calculate resultant count for ply yarns (e.g., 32s/2)",
+      "yarnCount": "Yarn Count",
+      "numberOfPlies": "Number of Plies",
+      "resultantCount": "Resultant Count",
+      "addYarn": "Add Yarn",
+      "seoTitle": "Resultant Count Calculator - Ply Yarn Count Calculation",
+      "seoDescription": "Calculate the resultant count of ply yarns. Essential for textile engineering and yarn production."
+    },
+    "gsmCalculator": {
+      "title": "GSM Calculator",
+      "description": "Calculate fabric weight (GSM and Oz/yd²) from yarn count and density",
+      "warpCount": "Warp Count (Ne)",
+      "weftCount": "Weft Count (Ne)",
+      "epi": "EPI (Ends per Inch)",
+      "ppi": "PPI (Picks per Inch)",
+      "gsm": "GSM (g/m²)",
+      "ozYd2": "Oz/yd²",
+      "seoTitle": "GSM Calculator - Fabric Weight Calculator",
+      "seoDescription": "Calculate fabric GSM and Oz/yd² from yarn count and density. Free textile engineering calculator."
+    },
+    "fabricConsumption": {
+      "title": "Fabric Consumption Calculator",
+      "description": "Calculate fabric consumption per piece and per dozen",
+      "length": "Length (cm)",
+      "chest": "Chest (cm)",
+      "sleeve": "Sleeve (cm)",
+      "gsm": "GSM (g/m²)",
+      "wastage": "Wastage (%)",
+      "consumptionPerPiece": "Consumption per Piece (kg)",
+      "kgPerDoz": "Kg per Dozen",
+      "seoTitle": "Fabric Consumption Calculator - Garment Fabric Usage",
+      "seoDescription": "Calculate fabric consumption for garments. Essential tool for apparel merchandising and cost estimation."
+    },
+    "cbmCalculator": {
+      "title": "CBM Calculator",
+      "description": "Calculate container volume and get container type suggestions",
+      "length": "Length (cm)",
+      "width": "Width (cm)",
+      "height": "Height (cm)",
+      "quantity": "Quantity (boxes)",
+      "totalCBM": "Total CBM (m³)",
+      "containerSuggestion": "Container Suggestion",
+      "seoTitle": "CBM Calculator - Container Volume Calculator",
+      "seoDescription": "Calculate CBM (cubic meters) for shipping containers. Get container type suggestions for your cargo."
+    },
+    "twistCalculator": {
+      "title": "Twist Calculator",
+      "description": "Convert TPI to TPM and calculate twist multiplier",
+      "tpi": "TPI (Turns per Inch)",
+      "tpm": "TPM (Turns per Meter)",
+      "yarnCount": "Yarn Count (Ne)",
+      "twistMultiplier": "Twist Multiplier",
+      "seoTitle": "Twist Calculator - TPI TPM Conversion & Twist Factor",
+      "seoDescription": "Convert between TPI and TPM, calculate twist multiplier for yarn. Essential tool for textile spinning."
+    },
+    "draftCalculator": {
+      "title": "Draft Calculator",
+      "description": "Calculate draft ratio in spinning",
+      "inputSpeed": "Input Speed (rpm or m/min)",
+      "outputSpeed": "Output Speed (rpm or m/min)",
+      "frontDiameter": "Front Roller Diameter (mm)",
+      "backDiameter": "Back Roller Diameter (mm)",
+      "draft": "Draft Ratio",
+      "method": "Calculation Method",
+      "speedMethod": "Speed Method",
+      "diameterMethod": "Diameter Method",
+      "seoTitle": "Draft Calculator - Spinning Draft Ratio Calculation",
+      "seoDescription": "Calculate draft ratio in spinning using speed or roller diameter. Essential for textile engineering."
+    },
+    "coverFactor": {
+      "title": "Cover Factor Calculator",
+      "description": "Calculate fabric cover factor using Pierce formula",
+      "epi": "EPI (Ends per Inch)",
+      "ppi": "PPI (Picks per Inch)",
+      "warpCount": "Warp Count (Ne)",
+      "weftCount": "Weft Count (Ne)",
+      "coverFactor": "Cover Factor",
+      "seoTitle": "Cover Factor Calculator - Fabric Cover Factor (Pierce Formula)",
+      "seoDescription": "Calculate fabric cover factor using Pierce formula. Essential for fabric design and quality control."
+    },
+    "weaveBeamWeight": {
+      "title": "Weave Beam Weight Calculator",
+      "description": "Calculate weight of warp beam",
+      "length": "Beam Length (meters)",
+      "ends": "Number of Ends",
+      "yarnCountTex": "Yarn Count (Tex)",
+      "weight": "Beam Weight (kg)",
+      "seoTitle": "Weave Beam Weight Calculator - Warp Beam Weight",
+      "seoDescription": "Calculate the weight of weave beam based on length, ends, and yarn count. Essential for weaving preparation."
+    },
+    "fabricProduction": {
+      "title": "Fabric Production Calculator",
+      "description": "Calculate loom production rate",
+      "rpm": "Loom Speed (RPM)",
+      "ppi": "PPI (Picks per Inch)",
+      "efficiency": "Efficiency (%)",
+      "workingHours": "Working Hours per Day",
+      "hourlyProduction": "Hourly Production (m/h)",
+      "dailyProduction": "Daily Production (m/day)",
+      "seoTitle": "Fabric Production Calculator - Loom Production Rate",
+      "seoDescription": "Calculate fabric production rate based on loom speed, PPI, and efficiency. Essential for production planning."
+    },
+    "costEstimator": {
+      "title": "Cost Estimator",
+      "description": "Calculate total production cost with profit margin",
+      "yarnPrice": "Yarn Price (per kg)",
+      "yarnConsumption": "Yarn Consumption (kg per unit)",
+      "laborCost": "Labor Cost (per unit)",
+      "overhead": "Overhead Cost (per unit)",
+      "profitMargin": "Profit Margin (%)",
+      "materialCost": "Material Cost",
+      "totalCost": "Total Cost",
+      "profit": "Profit",
+      "sellingPrice": "Selling Price",
+      "seoTitle": "Cost Estimator - Textile Production Cost Calculator",
+      "seoDescription": "Calculate total production cost including material, labor, overhead, and profit margin. Essential for pricing."
+    },
+    "unitConverter": {
+      "title": "Textile Unit Converter",
+      "description": "Convert length and weight units",
+      "yards": "Yards",
+      "meters": "Meters",
+      "pounds": "Pounds",
+      "kilograms": "Kilograms",
+      "length": "Length Conversion",
+      "weight": "Weight Conversion",
+      "seoTitle": "Textile Unit Converter - Length & Weight Conversion",
+      "seoDescription": "Convert between yards/meters and pounds/kilograms. Essential unit conversion tool for textile industry."
+    }
+  },
+  "home": {
+    "heroTitle": "Textile Engineering Calculator",
+    "heroSubtitle": "Professional tools for textile engineers, merchandisers, and designers",
+    "searchPlaceholder": "Search for tools...",
+    "categories": {
+      "yarn": "Yarn Tools",
+      "fabric": "Fabric Tools",
+      "apparel": "Apparel Tools"
+    }
+  },
+  "footer": {
+    "description": "Professional textile engineering calculation tools",
+    "copyright": "© 2024 TextileCalc. All rights reserved."
+  },
+  "ads": {
+    "title": "Iklan Tersedia",
+    "description": "Jangkau insinyur tekstil, pedagang, dan desainer di seluruh dunia | Lalu lintas tinggi, audiens yang ditargetkan",
+    "cta": "Hubungi Kami",
+    "sponsored": "Bersponsor"
+  }
+}

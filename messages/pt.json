@@ -1,0 +1,200 @@
+{
+  "common": {
+    "appName": "TextileCalc",
+    "tagline": "Plataforma Global de Engenharia Têxtil",
+    "home": "Início",
+    "tools": "Ferramentas",
+    "language": "Idioma",
+    "english": "English",
+    "chinese": "中文",
+    "spanish": "Español",
+    "hindi": "हिन्दी",
+    "turkish": "Türkçe",
+    "vietnamese": "Tiếng Việt",
+    "indonesian": "Bahasa Indonesia",
+    "portuguese": "Português",
+    "bengali": "বাংলা",
+    "urdu": "اردو",
+    "calculate": "Calcular",
+    "reset": "Redefinir",
+    "result": "Resultado",
+    "results": "Resultados",
+    "optional": "Opcional",
+    "enterAnyValue": "Digite qualquer valor e ele será convertido automaticamente para outras unidades",
+    "errors": {
+      "mustBeGreaterThan0": "deve ser maior que 0",
+      "mustBe0OrGreater": "deve ser 0 ou maior",
+      "mustBeBetween0And100": "deve estar entre 0 e 100",
+      "mustBeAtLeast1": "deve ser pelo menos 1"
+    }
+  },
+  "nav": {
+    "home": "Início",
+    "yarnTools": "Ferramentas de Fio",
+    "fabricTools": "Ferramentas de Tecido",
+    "apparelTools": "Ferramentas de Vestuário"
+  },
+  "tools": {
+    "yarnCountConverter": {
+      "title": "Conversor de Titulação de Fio",
+      "description": "Converter entre sistemas Ne, Nm, Tex e Denier",
+      "ne": "Ne (Titulação Inglesa)",
+      "nm": "Nm (Titulação Métrica)",
+      "tex": "Tex",
+      "denier": "Denier",
+      "seoTitle": "Conversor de Titulação de Fio",
+      "seoDescription": "Conversor gratuito de titulação de fio."
+    },
+    "resultantCount": {
+      "title": "Calculadora de Titulação Resultante",
+      "description": "Calcular titulação resultante para fios retorcidos",
+      "yarnCount": "Titulação de Fio",
+      "numberOfPlies": "Número de Cabos",
+      "resultantCount": "Titulação Resultante",
+      "addYarn": "Adicionar Fio",
+      "seoTitle": "Calculadora de Titulação Resultante",
+      "seoDescription": "Calcular titulação resultante de fios retorcidos."
+    },
+    "gsmCalculator": {
+      "title": "Calculadora GSM",
+      "description": "Calcular peso do tecido (GSM e Oz/yd²)",
+      "warpCount": "Titulação de Urdume (Ne)",
+      "weftCount": "Titulação de Trama (Ne)",
+      "epi": "EPI (Fios por Polegada)",
+      "ppi": "PPI (Passadas por Polegada)",
+      "gsm": "GSM (g/m²)",
+      "ozYd2": "Oz/yd²",
+      "seoTitle": "Calculadora GSM",
+      "seoDescription": "Calcular GSM e Oz/yd² do tecido."
+    },
+    "fabricConsumption": {
+      "title": "Calculadora de Consumo de Tecido",
+      "description": "Calcular consumo de tecido por peça e por dúzia",
+      "length": "Comprimento (cm)",
+      "chest": "Peito (cm)",
+      "sleeve": "Manga (cm)",
+      "gsm": "GSM (g/m²)",
+      "wastage": "Desperdício (%)",
+      "consumptionPerPiece": "Consumo por Peça (kg)",
+      "kgPerDoz": "Kg por Dúzia",
+      "seoTitle": "Calculadora de Consumo de Tecido",
+      "seoDescription": "Calcular consumo de tecido para roupas."
+    },
+    "cbmCalculator": {
+      "title": "Calculadora CBM",
+      "description": "Calcular volume de contêiner e obter sugestões",
+      "length": "Comprimento (cm)",
+      "width": "Largura (cm)",
+      "height": "Altura (cm)",
+      "quantity": "Quantidade (caixas)",
+      "totalCBM": "CBM Total (m³)",
+      "containerSuggestion": "Sugestão de Contêiner",
+      "seoTitle": "Calculadora CBM",
+      "seoDescription": "Calcular CBM para contêineres de envio."
+    },
+    "twistCalculator": {
+      "title": "Calculadora de Torção",
+      "description": "Converter TPI para TPM e calcular multiplicador de torção",
+      "tpi": "TPI (Voltas por Polegada)",
+      "tpm": "TPM (Voltas por Metro)",
+      "yarnCount": "Titulação de Fio (Ne)",
+      "twistMultiplier": "Multiplicador de Torção",
+      "seoTitle": "Calculadora de Torção",
+      "seoDescription": "Converter entre TPI e TPM."
+    },
+    "draftCalculator": {
+      "title": "Calculadora de Estiramento",
+      "description": "Calcular relação de estiramento na fiação",
+      "inputSpeed": "Velocidade de Entrada (rpm ou m/min)",
+      "outputSpeed": "Velocidade de Saída (rpm ou m/min)",
+      "frontDiameter": "Diâmetro do Rolo Frontal (mm)",
+      "backDiameter": "Diâmetro do Rolo Traseiro (mm)",
+      "draft": "Relação de Estiramento",
+      "method": "Método de Cálculo",
+      "speedMethod": "Método de Velocidade",
+      "diameterMethod": "Método de Diâmetro",
+      "seoTitle": "Calculadora de Estiramento",
+      "seoDescription": "Calcular relação de estiramento na fiação."
+    },
+    "coverFactor": {
+      "title": "Calculadora de Fator de Cobertura",
+      "description": "Calcular fator de cobertura do tecido usando fórmula Pierce",
+      "epi": "EPI (Fios por Polegada)",
+      "ppi": "PPI (Passadas por Polegada)",
+      "warpCount": "Titulação de Urdume (Ne)",
+      "weftCount": "Titulação de Trama (Ne)",
+      "coverFactor": "Fator de Cobertura",
+      "seoTitle": "Calculadora de Fator de Cobertura",
+      "seoDescription": "Calcular fator de cobertura usando fórmula Pierce."
+    },
+    "weaveBeamWeight": {
+      "title": "Calculadora de Peso de Rolo",
+      "description": "Calcular peso do rolo de urdume",
+      "length": "Comprimento do Rolo (metros)",
+      "ends": "Número de Fios",
+      "yarnCountTex": "Titulação de Fio (Tex)",
+      "weight": "Peso do Rolo (kg)",
+      "seoTitle": "Calculadora de Peso de Rolo",
+      "seoDescription": "Calcular peso do rolo de urdume."
+    },
+    "fabricProduction": {
+      "title": "Calculadora de Produção de Tecido",
+      "description": "Calcular taxa de produção do tear",
+      "rpm": "Velocidade do Tear (RPM)",
+      "ppi": "PPI (Passadas por Polegada)",
+      "efficiency": "Eficiência (%)",
+      "workingHours": "Horas de Trabalho por Dia",
+      "hourlyProduction": "Produção por Hora (m/h)",
+      "dailyProduction": "Produção Diária (m/dia)",
+      "seoTitle": "Calculadora de Produção de Tecido",
+      "seoDescription": "Calcular taxa de produção baseada em velocidade, PPI e eficiência."
+    },
+    "costEstimator": {
+      "title": "Estimador de Custos",
+      "description": "Calcular custo total de produção com margem de lucro",
+      "yarnPrice": "Preço do Fio (por kg)",
+      "yarnConsumption": "Consumo de Fio (kg por unidade)",
+      "laborCost": "Custo de Mão de Obra (por unidade)",
+      "overhead": "Custos Indiretos (por unidade)",
+      "profitMargin": "Margem de Lucro (%)",
+      "materialCost": "Custo de Material",
+      "totalCost": "Custo Total",
+      "profit": "Lucro",
+      "sellingPrice": "Preço de Venda",
+      "seoTitle": "Estimador de Custos",
+      "seoDescription": "Calcular custo total incluindo material, mão de obra e lucro."
+    },
+    "unitConverter": {
+      "title": "Conversor de Unidades Têxteis",
+      "description": "Converter unidades de comprimento e peso",
+      "yards": "Jardas",
+      "meters": "Metros",
+      "pounds": "Libras",
+      "kilograms": "Quilogramas",
+      "length": "Conversão de Comprimento",
+      "weight": "Conversão de Peso",
+      "seoTitle": "Conversor de Unidades Têxteis",
+      "seoDescription": "Converter entre jardas/metros e libras/quilogramas."
+    }
+  },
+  "home": {
+    "heroTitle": "Calculadora de Engenharia Têxtil",
+    "heroSubtitle": "Ferramentas profissionais para engenheiros têxteis, comerciantes e designers",
+    "searchPlaceholder": "Buscar ferramentas...",
+    "categories": {
+      "yarn": "Ferramentas de Fio",
+      "fabric": "Ferramentas de Tecido",
+      "apparel": "Ferramentas de Vestuário"
+    }
+  },
+  "footer": {
+    "description": "Ferramentas profissionais de cálculo de engenharia têxtil",
+    "copyright": "© 2024 TextileCalc. Todos os direitos reservados."
+  },
+  "ads": {
+    "title": "Anuncie Aqui",
+    "description": "Alcance engenheiros têxteis, comerciantes e designers em todo o mundo | Alto tráfego, público-alvo",
+    "cta": "Entre em Contato",
+    "sponsored": "Patrocinado"
+  }
+}

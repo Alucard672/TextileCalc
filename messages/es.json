@@ -1,0 +1,218 @@
+{
+  "common": {
+    "appName": "TextileCalc",
+    "tagline": "Plataforma Global de Ingeniería Textil",
+    "home": "Inicio",
+    "tools": "Herramientas",
+    "language": "Idioma",
+    "english": "English",
+    "chinese": "中文",
+    "spanish": "Español",
+    "hindi": "हिन्दी",
+    "turkish": "Türkçe",
+    "vietnamese": "Tiếng Việt",
+    "indonesian": "Bahasa Indonesia",
+    "portuguese": "Português",
+    "bengali": "বাংলা",
+    "urdu": "اردو",
+    "calculate": "Calcular",
+    "reset": "Restablecer",
+    "result": "Resultado",
+    "results": "Resultados",
+    "optional": "Opcional",
+    "enterAnyValue": "Ingrese cualquier valor y se convertirá automáticamente a otras unidades",
+    "errors": {
+      "mustBeGreaterThan0": "debe ser mayor que 0",
+      "mustBe0OrGreater": "debe ser 0 o mayor",
+      "mustBeBetween0And100": "debe estar entre 0 y 100",
+      "mustBeAtLeast1": "debe ser al menos 1"
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "yarnTools": "Herramientas de Hilo",
+    "fabricTools": "Herramientas de Tela",
+    "apparelTools": "Herramientas de Ropa"
+  },
+  "tools": {
+    "yarnCountConverter": {
+      "title": "Convertidor de Numeración de Hilo",
+      "description": "Convertir entre sistemas Ne, Nm, Tex y Denier",
+      "ne": "Ne (Numeración Inglesa)",
+      "nm": "Nm (Numeración Métrica)",
+      "tex": "Tex",
+      "denier": "Denier",
+      "seoTitle": "Convertidor de Numeración de Hilo - Ne, Nm, Tex, Denier",
+      "seoDescription": "Convertidor gratuito de numeración de hilo. Convierte entre sistemas Ne, Nm, Tex y Denier instantáneamente."
+    },
+    "resultantCount": {
+      "title": "Calculadora de Numeración Resultante",
+      "description": "Calcular numeración resultante para hilos retorcidos (ej: 32s/2)",
+      "yarnCount": "Numeración de Hilo",
+      "numberOfPlies": "Número de Cabos",
+      "resultantCount": "Numeración Resultante",
+      "addYarn": "Agregar Hilo",
+      "seoContent": {
+        "howToUse": "Cómo Usar",
+        "howToUseText": "Ingrese la numeración de hilo y el número de cabos para cada hilo. Haga clic en 'Agregar Hilo' para agregar más hilos. La calculadora calculará automáticamente la numeración resultante.",
+        "formula": "Fórmula",
+        "formulaText": "Numeración Resultante = 1 / (Suma de (1 / (Numeración de Hilo × Cabos)))",
+        "example": "Ejemplo",
+        "exampleText": "Para hilo 32s/2: Numeración Resultante = 1 / (1/(32×2)) = 16s"
+      },
+      "seoTitle": "Calculadora de Numeración Resultante",
+      "seoDescription": "Calcular la numeración resultante de hilos retorcidos."
+    },
+    "gsmCalculator": {
+      "title": "Calculadora GSM",
+      "description": "Calcular peso de tela (GSM y Oz/yd²) a partir de numeración y densidad",
+      "warpCount": "Numeración de Urdimbre (Ne)",
+      "weftCount": "Numeración de Trama (Ne)",
+      "epi": "EPI (Hilos por Pulgada)",
+      "ppi": "PPI (Pasadas por Pulgada)",
+      "gsm": "GSM (g/m²)",
+      "ozYd2": "Oz/yd²",
+      "seoContent": {
+        "howToUse": "Cómo Usar",
+        "howToUseText": "Ingrese numeración de urdimbre, numeración de trama, EPI (hilos por pulgada) y PPI (pasadas por pulgada). La calculadora calculará GSM y Oz/yd².",
+        "gsmFormula": "Fórmula GSM",
+        "gsmFormulaText": "GSM = (EPI/Numeración de Urdimbre + PPI/Numeración de Trama) × 23.25",
+        "factorsAffectingGSM": "Factores que Afectan el GSM",
+        "factor1": "Numeración de hilo (hilo más fino = GSM más bajo)",
+        "factor2": "EPI y PPI (mayor densidad = GSM más alto)",
+        "factor3": "Construcción de tela y tipo de tejido"
+      },
+      "seoTitle": "Calculadora GSM - Peso de Tela",
+      "seoDescription": "Calcular GSM y Oz/yd² de tela a partir de numeración y densidad."
+    },
+    "fabricConsumption": {
+      "title": "Calculadora de Consumo de Tela",
+      "description": "Calcular consumo de tela por pieza y por docena",
+      "length": "Longitud (cm)",
+      "chest": "Pecho (cm)",
+      "sleeve": "Manga (cm)",
+      "gsm": "GSM (g/m²)",
+      "wastage": "Desperdicio (%)",
+      "consumptionPerPiece": "Consumo por Pieza (kg)",
+      "kgPerDoz": "Kg por Docena",
+      "seoTitle": "Calculadora de Consumo de Tela",
+      "seoDescription": "Calcular consumo de tela para prendas."
+    },
+    "cbmCalculator": {
+      "title": "Calculadora CBM",
+      "description": "Calcular volumen de contenedor y obtener sugerencias de tipo",
+      "length": "Longitud (cm)",
+      "width": "Ancho (cm)",
+      "height": "Altura (cm)",
+      "quantity": "Cantidad (cajas)",
+      "totalCBM": "CBM Total (m³)",
+      "containerSuggestion": "Sugerencia de Contenedor",
+      "seoTitle": "Calculadora CBM - Volumen de Contenedor",
+      "seoDescription": "Calcular CBM (metros cúbicos) para contenedores de envío."
+    },
+    "twistCalculator": {
+      "title": "Calculadora de Torsión",
+      "description": "Convertir TPI a TPM y calcular multiplicador de torsión",
+      "tpi": "TPI (Vueltas por Pulgada)",
+      "tpm": "TPM (Vueltas por Metro)",
+      "yarnCount": "Numeración de Hilo (Ne)",
+      "twistMultiplier": "Multiplicador de Torsión",
+      "seoTitle": "Calculadora de Torsión",
+      "seoDescription": "Convertir entre TPI y TPM, calcular multiplicador de torsión."
+    },
+    "draftCalculator": {
+      "title": "Calculadora de Estirado",
+      "description": "Calcular relación de estirado en hilado",
+      "inputSpeed": "Velocidad de Entrada (rpm o m/min)",
+      "outputSpeed": "Velocidad de Salida (rpm o m/min)",
+      "frontDiameter": "Diámetro del Rodillo Frontal (mm)",
+      "backDiameter": "Diámetro del Rodillo Trasero (mm)",
+      "draft": "Relación de Estirado",
+      "method": "Método de Cálculo",
+      "speedMethod": "Método de Velocidad",
+      "diameterMethod": "Método de Diámetro",
+      "seoTitle": "Calculadora de Estirado",
+      "seoDescription": "Calcular relación de estirado en hilado."
+    },
+    "coverFactor": {
+      "title": "Calculadora de Factor de Cobertura",
+      "description": "Calcular factor de cobertura de tela usando fórmula Pierce",
+      "epi": "EPI (Hilos por Pulgada)",
+      "ppi": "PPI (Pasadas por Pulgada)",
+      "warpCount": "Numeración de Urdimbre (Ne)",
+      "weftCount": "Numeración de Trama (Ne)",
+      "coverFactor": "Factor de Cobertura",
+      "seoTitle": "Calculadora de Factor de Cobertura",
+      "seoDescription": "Calcular factor de cobertura de tela usando fórmula Pierce."
+    },
+    "weaveBeamWeight": {
+      "title": "Calculadora de Peso de Bobina",
+      "description": "Calcular peso de bobina de urdimbre",
+      "length": "Longitud de Bobina (metros)",
+      "ends": "Número de Hilos",
+      "yarnCountTex": "Numeración de Hilo (Tex)",
+      "weight": "Peso de Bobina (kg)",
+      "seoTitle": "Calculadora de Peso de Bobina",
+      "seoDescription": "Calcular peso de bobina de urdimbre."
+    },
+    "fabricProduction": {
+      "title": "Calculadora de Producción de Tela",
+      "description": "Calcular tasa de producción del telar",
+      "rpm": "Velocidad del Telar (RPM)",
+      "ppi": "PPI (Pasadas por Pulgada)",
+      "efficiency": "Eficiencia (%)",
+      "workingHours": "Horas de Trabajo por Día",
+      "hourlyProduction": "Producción por Hora (m/h)",
+      "dailyProduction": "Producción Diaria (m/día)",
+      "seoTitle": "Calculadora de Producción de Tela",
+      "seoDescription": "Calcular tasa de producción basada en velocidad, PPI y eficiencia."
+    },
+    "costEstimator": {
+      "title": "Estimador de Costos",
+      "description": "Calcular costo total de producción con margen de ganancia",
+      "yarnPrice": "Precio de Hilo (por kg)",
+      "yarnConsumption": "Consumo de Hilo (kg por unidad)",
+      "laborCost": "Costo de Mano de Obra (por unidad)",
+      "overhead": "Costos Indirectos (por unidad)",
+      "profitMargin": "Margen de Ganancia (%)",
+      "materialCost": "Costo de Material",
+      "totalCost": "Costo Total",
+      "profit": "Ganancia",
+      "sellingPrice": "Precio de Venta",
+      "seoTitle": "Estimador de Costos",
+      "seoDescription": "Calcular costo total incluyendo material, mano de obra y ganancia."
+    },
+    "unitConverter": {
+      "title": "Convertidor de Unidades Textiles",
+      "description": "Convertir unidades de longitud y peso",
+      "yards": "Yardas",
+      "meters": "Metros",
+      "pounds": "Libras",
+      "kilograms": "Kilogramos",
+      "length": "Conversión de Longitud",
+      "weight": "Conversión de Peso",
+      "seoTitle": "Convertidor de Unidades Textiles",
+      "seoDescription": "Convertir entre yardas/metros y libras/kilogramos."
+    }
+  },
+  "home": {
+    "heroTitle": "Calculadora de Ingeniería Textil",
+    "heroSubtitle": "Herramientas profesionales para ingenieros textiles, comerciantes y diseñadores",
+    "searchPlaceholder": "Buscar herramientas...",
+    "categories": {
+      "yarn": "Herramientas de Hilo",
+      "fabric": "Herramientas de Tela",
+      "apparel": "Herramientas de Ropa"
+    }
+  },
+  "footer": {
+    "description": "Herramientas profesionales de cálculo de ingeniería textil",
+    "copyright": "© 2024 TextileCalc. Todos los derechos reservados."
+  },
+  "ads": {
+    "title": "Anuncie Aquí",
+    "description": "Llegue a ingenieros textiles, comerciantes y diseñadores en todo el mundo | Alto tráfico, audiencia dirigida",
+    "cta": "Contáctenos",
+    "sponsored": "Patrocinado"
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "common": {
+    "appName": "TextileCalc",
+    "tagline": "Global Textile Engineering Platform",
+    "home": "Home",
+    "tools": "Tools",
+    "language": "Language",
+    "english": "English",
+    "chinese": "Chinese",
+    "spanish": "Spanish",
+    "hindi": "Hindi",
+    "turkish": "Turkish",
+    "vietnamese": "Vietnamese",
+    "indonesian": "Indonesian",
+    "portuguese": "Portuguese",
+    "bengali": "Bengali",
+    "urdu": "Urdu",
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "result": "Result",
+    "results": "Results",
+    "optional": "Optional",
+    "enterAnyValue": "Enter any value to automatically convert to other units",
+    "errors": {
+      "mustBeGreaterThan0": "must be greater than 0",
+      "mustBe0OrGreater": "must be 0 or greater",
+      "mustBeBetween0And100": "must be between 0 and 100",
+      "mustBeAtLeast1": "must be at least 1"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "yarnTools": "Yarn Tools",
+    "fabricTools": "Fabric Tools",
+    "apparelTools": "Apparel Tools"
+  },
+  "tools": {
+    "yarnCountConverter": {
+      "title": "Yarn Count Converter",
+      "description": "Convert between Ne, Nm, Tex, and Denier yarn count systems",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter any value in one of the four fields (Ne, Nm, Tex, or Denier), and the calculator will automatically convert it to the other three units.",
+        "yarnCountSystems": "Yarn Count Systems",
+        "neDescription": "Ne (English Count): The number of 840-yard hanks per pound",
+        "nmDescription": "Nm (Metric Count): The number of 1000-meter hanks per kilogram",
+        "texDescription": "Tex: Weight in grams per 1000 meters",
+        "denierDescription": "Denier: Weight in grams per 9000 meters",
+        "commonConversions": "Common Conversions",
+        "neToNm": "Ne to Nm: Multiply by 1.693",
+        "neToTex": "Ne to Tex: Divide 590.5 by Ne",
+        "neToDenier": "Ne to Denier: Divide 5315 by Ne"
+      },
+      "ne": "Ne (English Count)",
+      "nm": "Nm (Metric Count)",
+      "tex": "Tex",
+      "denier": "Denier",
+      "seoTitle": "Yarn Count Converter - Ne, Nm, Tex, Denier Conversion Tool",
+      "seoDescription": "Free online yarn count converter. Convert between Ne, Nm, Tex, and Denier systems instantly. Essential tool for textile engineers."
+    },
+    "resultantCount": {
+      "title": "Resultant Count Calculator",
+      "description": "Calculate resultant count for ply yarns (e.g., 32s/2)",
+      "yarnCount": "Yarn Count",
+      "numberOfPlies": "Number of Plies",
+      "resultantCount": "Resultant Count",
+      "addYarn": "Add Yarn",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter the yarn count and number of plies for each yarn. Click 'Add Yarn' to add more yarns. The calculator will automatically compute the resultant count.",
+        "formula": "Formula",
+        "formulaText": "Resultant Count = 1 / (Sum of (1 / (Yarn Count × Plies)))",
+        "example": "Example",
+        "exampleText": "For 32s/2 yarn: Resultant Count = 1 / (1/(32×2)) = 16s"
+      },
+      "seoTitle": "Resultant Count Calculator - Ply Yarn Count Calculation",
+      "seoDescription": "Calculate the resultant count of ply yarns. Essential for textile engineering and yarn production."
+    },
+    "gsmCalculator": {
+      "title": "GSM Calculator",
+      "description": "Calculate fabric weight (GSM and Oz/yd²) from yarn count and density",
+      "warpCount": "Warp Count (Ne)",
+      "weftCount": "Weft Count (Ne)",
+      "epi": "EPI (Ends per Inch)",
+      "ppi": "PPI (Picks per Inch)",
+      "gsm": "GSM (g/m²)",
+      "ozYd2": "Oz/yd²",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter warp count, weft count, EPI (ends per inch), and PPI (picks per inch). The calculator will compute GSM and Oz/yd².",
+        "gsmFormula": "GSM Formula",
+        "gsmFormulaText": "GSM = (EPI/Warp Count + PPI/Weft Count) × 23.25",
+        "factorsAffectingGSM": "Factors Affecting GSM",
+        "factor1": "Yarn count (finer yarn = lower GSM)",
+        "factor2": "EPI and PPI (higher density = higher GSM)",
+        "factor3": "Fabric construction and weave type"
+      },
+      "seoTitle": "GSM Calculator - Fabric Weight Calculator",
+      "seoDescription": "Calculate fabric GSM and Oz/yd² from yarn count and density. Free textile engineering calculator."
+    },
+    "fabricConsumption": {
+      "title": "Fabric Consumption Calculator",
+      "description": "Calculate fabric consumption per piece and per dozen",
+      "length": "Length (cm)",
+      "chest": "Chest (cm)",
+      "sleeve": "Sleeve (cm)",
+      "gsm": "GSM (g/m²)",
+      "wastage": "Wastage (%)",
+      "consumptionPerPiece": "Consumption per Piece (kg)",
+      "kgPerDoz": "Kg per Dozen",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter garment dimensions (length, chest, sleeve), fabric GSM, and wastage percentage. The calculator will compute consumption per piece and per dozen.",
+        "formula": "Formula",
+        "formulaText": "Consumption = (Length × Chest × GSM × (1 + Wastage%)) / 10,000,000",
+        "factors": "Factors Affecting Consumption",
+        "factor1": "Garment size and design",
+        "factor2": "Fabric GSM (higher GSM = more consumption)",
+        "factor3": "Wastage percentage (typically 5-15%)"
+      },
+      "seoTitle": "Fabric Consumption Calculator - Garment Fabric Usage",
+      "seoDescription": "Calculate fabric consumption for garments. Essential tool for apparel merchandising and cost estimation."
+    },
+    "cbmCalculator": {
+      "title": "CBM Calculator",
+      "description": "Calculate container volume and get container type suggestions",
+      "length": "Length (cm)",
+      "width": "Width (cm)",
+      "height": "Height (cm)",
+      "quantity": "Quantity (boxes)",
+      "totalCBM": "Total CBM (m³)",
+      "containerSuggestion": "Container Suggestion",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter box dimensions (length, width, height) in cm and quantity. The calculator will compute total CBM and suggest appropriate container type.",
+        "cbmFormula": "CBM Formula",
+        "cbmFormulaText": "CBM = (Length × Width × Height × Quantity) / 1,000,000",
+        "containerTypes": "Container Types",
+        "container20ft": "20ft Container: ~33 CBM",
+        "container40ft": "40ft Container: ~67 CBM",
+        "container40hc": "40ft High Cube: ~76 CBM"
+      },
+      "seoTitle": "CBM Calculator - Container Volume Calculator",
+      "seoDescription": "Calculate CBM (cubic meters) for shipping containers. Get container type suggestions for your cargo."
+    },
+    "twistCalculator": {
+      "title": "Twist Calculator",
+      "description": "Convert TPI to TPM and calculate twist multiplier",
+      "tpi": "TPI (Turns per Inch)",
+      "tpm": "TPM (Turns per Meter)",
+      "yarnCount": "Yarn Count (Ne)",
+      "twistMultiplier": "Twist Multiplier",
+      "seoTitle": "Twist Calculator - TPI TPM Conversion & Twist Factor",
+      "seoDescription": "Convert between TPI and TPM, calculate twist multiplier for yarn. Essential tool for textile spinning."
+    },
+    "draftCalculator": {
+      "title": "Draft Calculator",
+      "description": "Calculate draft ratio in spinning",
+      "inputSpeed": "Input Speed (rpm or m/min)",
+      "outputSpeed": "Output Speed (rpm or m/min)",
+      "frontDiameter": "Front Roller Diameter (mm)",
+      "backDiameter": "Back Roller Diameter (mm)",
+      "draft": "Draft Ratio",
+      "method": "Calculation Method",
+      "speedMethod": "Speed Method",
+      "diameterMethod": "Diameter Method",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Select calculation method (Speed or Diameter). Enter the required values and the calculator will compute the draft ratio.",
+        "calculationMethods": "Calculation Methods",
+        "speedMethodText": "Speed Method: Draft = Output Speed / Input Speed",
+        "diameterMethodText": "Diameter Method: Draft = Front Roller Diameter / Back Roller Diameter",
+        "importance": "Importance",
+        "importanceText": "Draft ratio determines the amount of stretching in spinning, affecting yarn quality and production efficiency."
+      },
+      "seoTitle": "Draft Calculator - Spinning Draft Ratio Calculation",
+      "seoDescription": "Calculate draft ratio in spinning using speed or roller diameter. Essential for textile engineering."
+    },
+    "coverFactor": {
+      "title": "Cover Factor Calculator",
+      "description": "Calculate fabric cover factor using Pierce formula",
+      "epi": "EPI (Ends per Inch)",
+      "ppi": "PPI (Picks per Inch)",
+      "warpCount": "Warp Count (Ne)",
+      "weftCount": "Weft Count (Ne)",
+      "coverFactor": "Cover Factor",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter EPI, PPI, warp count, and weft count. The calculator will compute the cover factor using Pierce formula.",
+        "pierceFormula": "Pierce Formula",
+        "pierceFormulaText": "Cover Factor = (EPI/√Warp Count + PPI/√Weft Count) / 28",
+        "coverFactorMeaning": "What is Cover Factor?",
+        "coverFactorText": "Cover factor indicates the tightness of fabric construction. Higher cover factor means tighter fabric with less air permeability."
+      },
+      "seoTitle": "Cover Factor Calculator - Fabric Cover Factor (Pierce Formula)",
+      "seoDescription": "Calculate fabric cover factor using Pierce formula. Essential for fabric design and quality control."
+    },
+    "weaveBeamWeight": {
+      "title": "Weave Beam Weight Calculator",
+      "description": "Calculate weight of warp beam",
+      "length": "Beam Length (meters)",
+      "ends": "Number of Ends",
+      "yarnCountTex": "Yarn Count (Tex)",
+      "weight": "Beam Weight",
+      "unitKg": "kg",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter beam length in meters, number of ends, and yarn count in Tex. The calculator will compute the total beam weight.",
+        "formula": "Formula",
+        "formulaText": "Beam Weight (kg) = (Length × Ends × Yarn Count in Tex) / 1000",
+        "importance": "Importance",
+        "importanceText": "Knowing beam weight is essential for production planning, material handling, and cost calculation in weaving operations."
+      },
+      "seoTitle": "Weave Beam Weight Calculator - Warp Beam Weight",
+      "seoDescription": "Calculate the weight of weave beam based on length, ends, and yarn count. Essential for weaving preparation."
+    },
+    "fabricProduction": {
+      "title": "Fabric Production Calculator",
+      "description": "Calculate loom production rate",
+      "rpm": "Loom Speed (RPM)",
+      "ppi": "PPI (Picks per Inch)",
+      "efficiency": "Efficiency (%)",
+      "workingHours": "Working Hours per Day",
+      "hourlyProduction": "Hourly Production",
+      "dailyProduction": "Daily Production",
+      "unitMh": "m/h",
+      "unitMday": "m/day",
+      "unitKg": "kg",
+      "unitM3": "m³",
+      "unitCm": "cm",
+      "unitMm": "mm",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter loom speed (RPM), picks per inch (PPI), efficiency percentage, and optionally working hours per day. The calculator will compute hourly and daily production.",
+        "productionCalculation": "Production Calculation",
+        "productionCalculationText": "Production rate depends on loom speed, fabric density (PPI), and machine efficiency. Higher speed and efficiency result in higher production.",
+        "efficiencyFactors": "Efficiency Factors",
+        "efficiencyFactor1": "Machine maintenance and condition",
+        "efficiencyFactor2": "Operator skill level",
+        "efficiencyFactor3": "Yarn quality and breakage rate",
+        "efficiencyFactor4": "Fabric complexity"
+      },
+      "seoTitle": "Fabric Production Calculator - Loom Production Rate",
+      "seoDescription": "Calculate fabric production rate based on loom speed, PPI, and efficiency. Essential for production planning."
+    },
+    "costEstimator": {
+      "title": "Cost Estimator",
+      "description": "Calculate total production cost with profit margin",
+      "yarnPrice": "Yarn Price (per kg)",
+      "yarnConsumption": "Yarn Consumption (kg per unit)",
+      "laborCost": "Labor Cost (per unit)",
+      "overhead": "Overhead Cost (per unit)",
+      "profitMargin": "Profit Margin (%)",
+      "materialCost": "Material Cost",
+      "totalCost": "Total Cost",
+      "profit": "Profit",
+      "sellingPrice": "Selling Price",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter yarn price, yarn consumption, labor cost, overhead cost, and desired profit margin. The calculator will compute material cost, total cost, and profit.",
+        "costBreakdown": "Cost Breakdown",
+        "materialCostText": "Material Cost = Yarn Price × Yarn Consumption",
+        "totalCostText": "Total Cost = Material Cost + Labor Cost + Overhead",
+        "profitText": "Profit = Total Cost × (Profit Margin / 100)",
+        "pricing": "Pricing Strategy",
+        "pricingText": "Understanding cost breakdown helps in competitive pricing and profit optimization."
+      },
+      "seoTitle": "Cost Estimator - Textile Production Cost Calculator",
+      "seoDescription": "Calculate total production cost including material, labor, overhead, and profit margin. Essential for pricing."
+    },
+    "unitConverter": {
+      "title": "Textile Unit Converter",
+      "description": "Convert length and weight units",
+      "yards": "Yards",
+      "meters": "Meters",
+      "pounds": "Pounds",
+      "kilograms": "Kilograms",
+      "length": "Length Conversion",
+      "weight": "Weight Conversion",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter value in one unit (yards or meters for length, pounds or kilograms for weight) and it will automatically convert to the other unit.",
+        "conversionFactors": "Conversion Factors",
+        "yardsToMeters": "1 Yard = 0.9144 Meters",
+        "metersToYards": "1 Meter = 1.0936 Yards",
+        "poundsToKg": "1 Pound = 0.4536 Kilograms",
+        "kgToPounds": "1 Kilogram = 2.2046 Pounds",
+        "commonUsage": "Common Usage",
+        "usageText": "Yards and pounds are commonly used in US textile industry, while meters and kilograms are standard in most other countries."
+      },
+      "seoTitle": "Textile Unit Converter - Length & Weight Conversion",
+      "seoDescription": "Convert between yards/meters and pounds/kilograms. Essential unit conversion tool for textile industry."
+    },
+    "fabricShrinkage": {
+      "title": "Fabric Shrinkage Calculator",
+      "description": "Calculate fabric shrinkage percentage after washing",
+      "originalLength": "Original Length (cm or inches)",
+      "afterWashLength": "Length After Washing (cm or inches)",
+      "shrinkage": "Shrinkage",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter the original length and length after washing. The calculator will compute the shrinkage percentage.",
+        "formula": "Formula",
+        "formulaText": "Shrinkage % = ((Original Length - After Wash Length) / Original Length) × 100",
+        "importance": "Importance",
+        "importanceText": "Understanding fabric shrinkage is crucial for garment sizing, pattern making, and quality control."
+      },
+      "seoTitle": "Fabric Shrinkage Calculator - Calculate Fabric Shrinkage Percentage",
+      "seoDescription": "Calculate fabric shrinkage percentage after washing. Essential for garment production and quality control."
+    },
+    "gsmToOzConverter": {
+      "title": "GSM to Oz/yd² Converter",
+      "description": "Convert between GSM and Oz/yd² fabric weight units",
+      "gsm": "GSM (g/m²)",
+      "ozYd2": "Oz/yd²",
+      "hint": "Enter value in either field to automatically convert",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Enter value in GSM or Oz/yd² field, and it will automatically convert to the other unit.",
+        "conversion": "Conversion Formula",
+        "conversionText": "Oz/yd² = GSM / 33.906 | GSM = Oz/yd² × 33.906",
+        "commonUsage": "Common Usage",
+        "usageText": "GSM is standard in most countries, while Oz/yd² is commonly used in the US textile industry."
+      },
+      "seoTitle": "GSM to Oz/yd² Converter - Fabric Weight Unit Conversion",
+      "seoDescription": "Convert between GSM and Oz/yd² fabric weight units. Free online textile unit converter."
+    },
+    "yarnWeight": {
+      "title": "Yarn Weight Calculator",
+      "description": "Calculate yarn weight from length and count",
+      "countSystem": "Count System",
+      "length": "Length (meters)",
+      "yarnCount": "Yarn Count",
+      "weight": "Weight",
+      "unitKg": "kg",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Select count system (Ne or Tex), enter yarn length and count. The calculator will compute the yarn weight.",
+        "formula": "Formula",
+        "formulaText": "Weight (kg) = (Length × Tex) / 1000, where Tex = 590.5 / Ne for English Count",
+        "applications": "Applications",
+        "applicationsText": "Useful for material planning, cost estimation, and production calculations."
+      },
+      "seoTitle": "Yarn Weight Calculator - Calculate Yarn Weight from Length and Count",
+      "seoDescription": "Calculate yarn weight from length and count. Essential tool for yarn production and material planning."
+    },
+    "fabricYardage": {
+      "title": "Fabric Yardage Calculator",
+      "description": "Calculate fabric yardage from length and width",
+      "unitSystem": "Unit System",
+      "metric": "Metric (meters, cm)",
+      "imperial": "Imperial (yards, inches)",
+      "lengthMeters": "Length (meters)",
+      "lengthYards": "Length (yards)",
+      "widthCm": "Width (cm)",
+      "widthInches": "Width (inches)",
+      "yardage": "Yardage",
+      "unitYd2": "yd²",
+      "seoContent": {
+        "howToUse": "How to Use",
+        "howToUseText": "Select unit system (metric or imperial), enter fabric length and width. The calculator will compute the yardage in square yards.",
+        "formula": "Formula",
+        "formulaText": "Yardage (yd²) = Length (yards) × Width (yards)",
+        "applications": "Applications",
+        "applicationsText": "Essential for fabric purchasing, cost calculation, and inventory management."
+      },
+      "seoTitle": "Fabric Yardage Calculator - Calculate Fabric Yardage",
+      "seoDescription": "Calculate fabric yardage from length and width. Essential tool for fabric purchasing and inventory management."
+    }
+  },
+  "home": {
+    "heroTitle": "Textile Engineering Calculator",
+    "heroSubtitle": "Professional tools for textile engineers, merchandisers, and designers",
+    "searchPlaceholder": "Search for tools...",
+    "categories": {
+      "yarn": "Yarn Tools",
+      "fabric": "Fabric Tools",
+      "apparel": "Apparel Tools"
+    }
+  },
+  "footer": {
+    "description": "Professional textile engineering calculation tools",
+    "copyright": "© 2024 TextileCalc. All rights reserved."
+  },
+  "ads": {
+    "title": "Advertise Here",
+    "description": "Reach textile engineers, merchandisers, and designers worldwide | High traffic, targeted audience",
+    "cta": "Contact Us",
+    "sponsored": "Sponsored"
+  }
+}
