@@ -12,12 +12,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations('tools.twistCalculator');
 
+  // Extract keywords from translation file
+  const keywordsStr = t('keywords') || '';
+  const keywords = keywordsStr ? keywordsStr.split(',').map(k => k.trim()) : [];
+
   return generateToolMetadata({
     locale,
     seoTitle: t('seoTitle'),
     seoDescription: t('seoDescription'),
     toolPath: 'yarn/twist-calculator',
-    keywords: ['twist calculator', 'TPI', 'TPM', 'twist multiplier', 'yarn twist'],
+    keywords,
   });
 }
 

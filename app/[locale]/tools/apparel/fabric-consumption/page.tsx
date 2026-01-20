@@ -12,12 +12,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations('tools.fabricConsumption');
 
+  // Extract keywords from translation file
+  const keywordsStr = t('keywords') || '';
+  const keywords = keywordsStr ? keywordsStr.split(',').map(k => k.trim()) : [];
+
   return generateToolMetadata({
     locale,
     seoTitle: t('seoTitle'),
     seoDescription: t('seoDescription'),
     toolPath: 'apparel/fabric-consumption',
-    keywords: ['fabric consumption', 'garment consumption', 'apparel consumption', 'fabric usage'],
+    keywords,
   });
 }
 

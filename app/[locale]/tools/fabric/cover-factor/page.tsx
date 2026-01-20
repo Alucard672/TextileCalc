@@ -12,12 +12,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations('tools.coverFactor');
 
+  // Extract keywords from translation file
+  const keywordsStr = t('keywords') || '';
+  const keywords = keywordsStr ? keywordsStr.split(',').map(k => k.trim()) : [];
+
   return generateToolMetadata({
     locale,
     seoTitle: t('seoTitle'),
     seoDescription: t('seoDescription'),
     toolPath: 'fabric/cover-factor',
-    keywords: ['cover factor', 'Pierce formula', 'fabric tightness', 'fabric construction'],
+    keywords,
   });
 }
 

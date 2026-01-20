@@ -56,7 +56,8 @@
       "tex": "Tex",
       "denier": "Denier",
       "seoTitle": "Yarn Count Converter - Ne, Nm, Tex, Denier Conversion Tool",
-      "seoDescription": "Free online yarn count converter. Convert between Ne, Nm, Tex, and Denier systems instantly. Essential tool for textile engineers."
+      "seoDescription": "Free online yarn count converter. Convert between Ne, Nm, Tex, and Denier systems instantly. Essential tool for textile engineers.",
+      "keywords": "yarn count, Ne, Nm, Tex, Denier, yarn conversion, textile count, spinning calculator"
     },
     "resultantCount": {
       "title": "Resultant Count Calculator",
@@ -74,7 +75,8 @@
         "exampleText": "For 32s/2 yarn: Resultant Count = 1 / (1/(32×2)) = 16s"
       },
       "seoTitle": "Resultant Count Calculator - Ply Yarn Count Calculation",
-      "seoDescription": "Calculate the resultant count of ply yarns. Essential for textile engineering and yarn production."
+      "seoDescription": "Calculate the resultant count of ply yarns. Essential for textile engineering and yarn production.",
+      "keywords": "resultant count, ply yarn, yarn count calculation, textile engineering"
     },
     "gsmCalculator": {
       "title": "GSM Calculator",
@@ -96,7 +98,8 @@
         "factor3": "Fabric construction and weave type"
       },
       "seoTitle": "GSM Calculator - Fabric Weight Calculator",
-      "seoDescription": "Calculate fabric GSM and Oz/yd² from yarn count and density. Free textile engineering calculator."
+      "seoDescription": "Calculate fabric GSM and Oz/yd² from yarn count and density. Free textile engineering calculator.",
+      "keywords": "GSM calculator, fabric weight, fabric GSM, Oz/yd², fabric density, EPI, PPI"
     },
     "fabricConsumption": {
       "title": "Fabric Consumption Calculator",
@@ -119,7 +122,8 @@
         "factor3": "Wastage percentage (typically 5-15%)"
       },
       "seoTitle": "Fabric Consumption Calculator - Garment Fabric Usage",
-      "seoDescription": "Calculate fabric consumption for garments. Essential tool for apparel merchandising and cost estimation."
+      "seoDescription": "Calculate fabric consumption for garments. Essential tool for apparel merchandising and cost estimation.",
+      "keywords": "fabric consumption, garment consumption, apparel consumption, fabric usage, merchandising"
     },
     "cbmCalculator": {
       "title": "CBM Calculator",
@@ -145,7 +149,8 @@
         "container40hc": "40ft High Cube: ~76 CBM"
       },
       "seoTitle": "CBM Calculator - Container Volume Calculator",
-      "seoDescription": "Calculate CBM (cubic meters) for shipping containers. Get container type suggestions for your cargo."
+      "seoDescription": "Calculate CBM (cubic meters) for shipping containers. Get container type suggestions for your cargo.",
+      "keywords": "CBM calculator, container volume, shipping calculator, container loading, cubic meters"
     },
     "twistCalculator": {
       "title": "Twist Calculator",
@@ -155,7 +160,8 @@
       "yarnCount": "Yarn Count (Ne)",
       "twistMultiplier": "Twist Multiplier",
       "seoTitle": "Twist Calculator - TPI TPM Conversion & Twist Factor",
-      "seoDescription": "Convert between TPI and TPM, calculate twist multiplier for yarn. Essential tool for textile spinning."
+      "seoDescription": "Convert between TPI and TPM, calculate twist multiplier for yarn. Essential tool for textile spinning.",
+      "keywords": "twist calculator, TPI, TPM, twist multiplier, yarn twist, spinning"
     },
     "draftCalculator": {
       "title": "Draft Calculator",
@@ -178,7 +184,8 @@
         "importanceText": "Draft ratio determines the amount of stretching in spinning, affecting yarn quality and production efficiency."
       },
       "seoTitle": "Draft Calculator - Spinning Draft Ratio Calculation",
-      "seoDescription": "Calculate draft ratio in spinning using speed or roller diameter. Essential for textile engineering."
+      "seoDescription": "Calculate draft ratio in spinning using speed or roller diameter. Essential for textile engineering.",
+      "keywords": "draft calculator, draft ratio, spinning, textile engineering, roller diameter"
     },
     "coverFactor": {
       "title": "Cover Factor Calculator",
@@ -197,7 +204,8 @@
         "coverFactorText": "Cover factor indicates the tightness of fabric construction. Higher cover factor means tighter fabric with less air permeability."
       },
       "seoTitle": "Cover Factor Calculator - Fabric Cover Factor (Pierce Formula)",
-      "seoDescription": "Calculate fabric cover factor using Pierce formula. Essential for fabric design and quality control."
+      "seoDescription": "Calculate fabric cover factor using Pierce formula. Essential for fabric design and quality control.",
+      "keywords": "cover factor, Pierce formula, fabric design, EPI, PPI, fabric quality"
     },
     "weaveBeamWeight": {
       "title": "Weave Beam Weight Calculator",
@@ -216,7 +224,8 @@
         "importanceText": "Knowing beam weight is essential for production planning, material handling, and cost calculation in weaving operations."
       },
       "seoTitle": "Weave Beam Weight Calculator - Warp Beam Weight",
-      "seoDescription": "Calculate the weight of weave beam based on length, ends, and yarn count. Essential for weaving preparation."
+      "seoDescription": "Calculate the weight of weave beam based on length, ends, and yarn count. Essential for weaving preparation.",
+      "keywords": "weave beam, warp beam, beam weight, weaving preparation, textile weaving"
     },
     "fabricProduction": {
       "title": "Fabric Production Calculator",
@@ -245,7 +254,8 @@
         "efficiencyFactor4": "Fabric complexity"
       },
       "seoTitle": "Fabric Production Calculator - Loom Production Rate",
-      "seoDescription": "Calculate fabric production rate based on loom speed, PPI, and efficiency. Essential for production planning."
+      "seoDescription": "Calculate fabric production rate based on loom speed, PPI, and efficiency. Essential for production planning.",
+      "keywords": "fabric production, loom production, production rate, RPM, PPI, efficiency, weaving"
     },
     "costEstimator": {
       "title": "Cost Estimator",
@@ -270,7 +280,8 @@
         "pricingText": "Understanding cost breakdown helps in competitive pricing and profit optimization."
       },
       "seoTitle": "Cost Estimator - Textile Production Cost Calculator",
-      "seoDescription": "Calculate total production cost including material, labor, overhead, and profit margin. Essential for pricing."
+      "seoDescription": "Calculate total production cost including material, labor, overhead, and profit margin. Essential for pricing.",
+      "keywords": "cost estimator, production cost, textile pricing, cost calculation, profit margin"
     },
     "unitConverter": {
       "title": "Textile Unit Converter",
@@ -293,7 +304,8 @@
         "usageText": "Yards and pounds are commonly used in US textile industry, while meters and kilograms are standard in most other countries."
       },
       "seoTitle": "Textile Unit Converter - Length & Weight Conversion",
-      "seoDescription": "Convert between yards/meters and pounds/kilograms. Essential unit conversion tool for textile industry."
+      "seoDescription": "Convert between yards/meters and pounds/kilograms. Essential unit conversion tool for textile industry.",
+      "keywords": "unit converter, textile units, yards to meters, pounds to kilograms, unit conversion"
     },
     "fabricShrinkage": {
       "title": "Fabric Shrinkage Calculator",
@@ -310,7 +322,8 @@
         "importanceText": "Understanding fabric shrinkage is crucial for garment sizing, pattern making, and quality control."
       },
       "seoTitle": "Fabric Shrinkage Calculator - Calculate Fabric Shrinkage Percentage",
-      "seoDescription": "Calculate fabric shrinkage percentage after washing. Essential for garment production and quality control."
+      "seoDescription": "Calculate fabric shrinkage percentage after washing. Essential for garment production and quality control.",
+      "keywords": "fabric shrinkage, shrinkage calculator, fabric quality, garment sizing, quality control"
     },
     "gsmToOzConverter": {
       "title": "GSM to Oz/yd² Converter",
@@ -327,7 +340,8 @@
         "usageText": "GSM is standard in most countries, while Oz/yd² is commonly used in the US textile industry."
       },
       "seoTitle": "GSM to Oz/yd² Converter - Fabric Weight Unit Conversion",
-      "seoDescription": "Convert between GSM and Oz/yd² fabric weight units. Free online textile unit converter."
+      "seoDescription": "Convert between GSM and Oz/yd² fabric weight units. Free online textile unit converter.",
+      "keywords": "GSM converter, Oz/yd² converter, fabric weight conversion, textile units"
     },
     "yarnWeight": {
       "title": "Yarn Weight Calculator",
@@ -348,7 +362,8 @@
         "applicationsText": "Useful for material planning, cost estimation, and production calculations."
       },
       "seoTitle": "Yarn Weight Calculator - Calculate Yarn Weight from Length and Count",
-      "seoDescription": "Calculate yarn weight from length and count. Essential tool for yarn production and material planning."
+      "seoDescription": "Calculate yarn weight from length and count. Essential tool for yarn production and material planning.",
+      "keywords": "yarn weight, yarn weight calculator, material planning, yarn production, Ne, Tex"
     },
     "fabricYardage": {
       "title": "Fabric Yardage Calculator",
@@ -371,7 +386,8 @@
         "applicationsText": "Essential for fabric purchasing, cost calculation, and inventory management."
       },
       "seoTitle": "Fabric Yardage Calculator - Calculate Fabric Yardage",
-      "seoDescription": "Calculate fabric yardage from length and width. Essential tool for fabric purchasing and inventory management."
+      "seoDescription": "Calculate fabric yardage from length and width. Essential tool for fabric purchasing and inventory management.",
+      "keywords": "fabric yardage, yardage calculator, fabric purchasing, inventory management, square yards"
     }
   },
   "home": {

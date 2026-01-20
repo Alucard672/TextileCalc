@@ -13,12 +13,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations('tools.fabricYardage');
 
+  // Extract keywords from translation file
+  const keywordsStr = t('keywords') || '';
+  const keywords = keywordsStr ? keywordsStr.split(',').map(k => k.trim()) : [];
+
   return generateToolMetadata({
     locale,
     seoTitle: t('seoTitle'),
     seoDescription: t('seoDescription'),
     toolPath: 'fabric/fabric-yardage',
-    keywords: ['fabric yardage', 'fabric calculation', 'fabric purchasing', 'inventory management'],
+    keywords,
   });
 }
 

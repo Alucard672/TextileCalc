@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { YarnCountConverter } from '@/components/calculators/YarnCountConverter';
 import { AdPlaceholder } from '@/components/ads/AdPlaceholder';
 import { StructuredData } from '@/components/seo/StructuredData';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { Metadata } from 'next';
 import { generateToolMetadata } from '@/lib/metadata';
 
@@ -13,12 +14,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations('tools.yarnCountConverter');
 
+  // Extract keywords from translation file, split by comma if it's a string
+  const keywordsStr = t('keywords') || '';
+  const keywords = keywordsStr ? keywordsStr.split(',').map(k => k.trim()) : [];
+
   return generateToolMetadata({
     locale,
     seoTitle: t('seoTitle'),
     seoDescription: t('seoDescription'),
     toolPath: 'yarn/yarn-count-converter',
-    keywords: ['yarn count', 'Ne', 'Nm', 'Tex', 'Denier', 'yarn conversion', 'textile count'],
+    keywords,
   });
 }
 
@@ -29,10 +34,20 @@ export default async function YarnCountConverterPage({
 }) {
   const { locale } = await params;
   const t = await getTranslations('tools.yarnCountConverter');
+  
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://calctextile.com';
+  const toolUrl = `${baseUrl}/${locale}/tools/yarn/yarn-count-converter`;
 
   return (
     <>
       <StructuredData toolKey="yarnCountConverter" toolPath="yarn/yarn-count-converter" />
+      <JsonLd
+        name={t('title')}
+        description={t('seoDescription')}
+        url={toolUrl}
+        category="Textile Design Software"
+        type="SoftwareApplication"
+      />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <AdPlaceholder position="top" />
         

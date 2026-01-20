@@ -12,12 +12,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations('tools.gsmCalculator');
 
+  // Extract keywords from translation file
+  const keywordsStr = t('keywords') || '';
+  const keywords = keywordsStr ? keywordsStr.split(',').map(k => k.trim()) : [];
+
   return generateToolMetadata({
     locale,
     seoTitle: t('seoTitle'),
     seoDescription: t('seoDescription'),
     toolPath: 'fabric/gsm-calculator',
-    keywords: ['GSM calculator', 'fabric weight', 'fabric GSM', 'Oz/yd²', 'fabric density'],
+    keywords,
   });
 }
 
