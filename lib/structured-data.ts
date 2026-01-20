@@ -1,6 +1,6 @@
 import { routing } from '@/i18n/routing';
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://textilecalc.com';
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://calctextile.com';
 
 interface GenerateStructuredDataParams {
   locale: string;

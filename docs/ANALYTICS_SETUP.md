@@ -64,7 +64,7 @@ Create a `.env.local` file in the project root:
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 
 # Base URL (for sitemap and metadata)
-NEXT_PUBLIC_BASE_URL=https://textilecalc.com
+NEXT_PUBLIC_BASE_URL=https://calctextile.com
 ```
 
 ## Testing

@@ -16,7 +16,7 @@ export function generateToolMetadata({
   toolPath,
   keywords = [],
 }: GenerateToolMetadataParams): Metadata {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://textilecalc.com';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://calctextile.com';
   const fullPath = `/${locale}/tools/${toolPath}`;
   const canonicalUrl = `${baseUrl}${fullPath}`;
   

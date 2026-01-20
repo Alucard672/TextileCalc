@@ -11,7 +11,7 @@ interface StructuredDataProps {
 export function StructuredData({ toolKey, toolPath }: StructuredDataProps) {
   const t = useTranslations(`tools.${toolKey}`);
   const locale = useLocale();
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://textilecalc.com';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://calctextile.com';
   const fullUrl = `${baseUrl}/${locale}/tools/${toolPath}`;
 
   // HowTo Schema
