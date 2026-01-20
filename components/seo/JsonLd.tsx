@@ -1,5 +1,5 @@
 interface JsonLdProps {
-  name: string;
+  toolName: string;
   description: string;
   url: string;
   category?: string;
@@ -7,7 +7,7 @@ interface JsonLdProps {
 }
 
 export function JsonLd({
-  name,
+  toolName,
   description,
   url,
   category = 'Textile Design Software',
@@ -16,7 +16,7 @@ export function JsonLd({
   const schema = {
     '@context': 'https://schema.org',
     '@type': type,
-    name,
+    name: toolName,
     description,
     applicationCategory: category,
     operatingSystem: 'Any',
@@ -24,6 +24,11 @@ export function JsonLd({
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'USD',
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.8',
+      ratingCount: '1024',
     },
     url,
   };

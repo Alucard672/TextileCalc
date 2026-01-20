@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { FabricConsumption } from '@/components/calculators/FabricConsumption';
 import { AdPlaceholder } from '@/components/ads/AdPlaceholder';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { Metadata } from 'next';
 import { generateToolMetadata } from '@/lib/metadata';
 
@@ -32,9 +33,20 @@ export default async function FabricConsumptionPage({
 }) {
   const { locale } = await params;
   const t = await getTranslations('tools.fabricConsumption');
+  
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://calctextile.com';
+  const toolUrl = `${baseUrl}/${locale}/tools/apparel/fabric-consumption`;
 
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <>
+      <JsonLd
+        toolName={t('title')}
+        description={t('seoDescription')}
+        url={toolUrl}
+        category="Textile Design Software"
+        type="SoftwareApplication"
+      />
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <AdPlaceholder position="top" />
       
       <div className="max-w-4xl mx-auto my-8">
@@ -58,5 +70,6 @@ export default async function FabricConsumptionPage({
         </ul>
       </article>
     </div>
+    </>
   );
 }

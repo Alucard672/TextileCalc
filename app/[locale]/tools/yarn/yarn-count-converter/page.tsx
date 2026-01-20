@@ -42,7 +42,7 @@ export default async function YarnCountConverterPage({
     <>
       <StructuredData toolKey="yarnCountConverter" toolPath="yarn/yarn-count-converter" />
       <JsonLd
-        name={t('title')}
+        toolName={t('title')}
         description={t('seoDescription')}
         url={toolUrl}
         category="Textile Design Software"
