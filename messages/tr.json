@@ -89,6 +89,10 @@
       "quantity": "Quantity (boxes)",
       "totalCBM": "Total CBM (m³)",
       "containerSuggestion": "Container Suggestion",
+      "container20ft": "20ft Konteyner",
+      "container40ft": "40ft Konteyner",
+      "container40hc": "40ft High Cube Konteyner",
+      "containerMultiple": "Birden Fazla Konteyner Gerekli",
       "seoTitle": "CBM Calculator - Container Volume Calculator",
       "seoDescription": "Calculate CBM (cubic meters) for shipping containers. Get container type suggestions for your cargo."
     },
@@ -195,6 +199,8 @@
     "title": "Reklam Yeri Mevcut",
     "description": "Dünya çapında tekstil mühendisleri, tüccarlar ve tasarımcılara ulaşın | Yüksek trafik, hedeflenmiş kitle",
     "cta": "Bize Ulaşın",
-    "sponsored": "Sponsorlu"
+    "sponsored": "Sponsorlu",
+    "alt": "Reklam Yeri Mevcut",
+    "advertisement": "Reklam"
   }
 }

@@ -13,7 +13,7 @@ export function AdPlaceholder({ position = 'top' }: AdPlaceholderProps) {
   const adConfig = {
     image: "/images/zhiyun-banner.jpg", // 放在 public 文件夹下的图片（可选）
     link: "mailto:liumx2026@gmail.com", // 招商联系邮箱
-    alt: "Advertise Here",
+    alt: t('alt'),
     title: t('title'),
     description: t('description'),
     cta: t('cta'),
@@ -27,7 +27,7 @@ export function AdPlaceholder({ position = 'top' }: AdPlaceholderProps) {
     return (
       <div className="w-full bg-slate-100 border border-slate-200 rounded-lg flex items-center justify-center min-h-[100px] md:min-h-[120px] relative overflow-hidden">
         <div className="relative z-10 text-slate-400 text-sm font-medium">
-          Advertisement
+          {t('advertisement')}
         </div>
       </div>
     );

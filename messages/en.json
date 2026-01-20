@@ -130,6 +130,10 @@
       "quantity": "Quantity (boxes)",
       "totalCBM": "Total CBM (m³)",
       "containerSuggestion": "Container Suggestion",
+      "container20ft": "20ft Container",
+      "container40ft": "40ft Container",
+      "container40hc": "40ft High Cube Container",
+      "containerMultiple": "Multiple Containers Required",
       "seoContent": {
         "howToUse": "How to Use",
         "howToUseText": "Enter box dimensions (length, width, height) in cm and quantity. The calculator will compute total CBM and suggest appropriate container type.",
@@ -329,6 +333,8 @@
       "title": "Yarn Weight Calculator",
       "description": "Calculate yarn weight from length and count",
       "countSystem": "Count System",
+      "ne": "Ne (English Count)",
+      "tex": "Tex",
       "length": "Length (meters)",
       "yarnCount": "Yarn Count",
       "weight": "Weight",
@@ -386,6 +392,8 @@
     "title": "Advertise Here",
     "description": "Reach textile engineers, merchandisers, and designers worldwide | High traffic, targeted audience",
     "cta": "Contact Us",
-    "sponsored": "Sponsored"
+    "sponsored": "Sponsored",
+    "alt": "Advertise Here",
+    "advertisement": "Advertisement"
   }
 }

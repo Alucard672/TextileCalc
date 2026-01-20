@@ -89,6 +89,10 @@
       "quantity": "数量 (箱)",
       "totalCBM": "总体积 (m³)",
       "containerSuggestion": "集装箱建议",
+      "container20ft": "20 英尺集装箱",
+      "container40ft": "40 英尺集装箱",
+      "container40hc": "40 英尺高柜",
+      "containerMultiple": "需要多个集装箱",
       "seoTitle": "CBM 计算器 - 集装箱体积计算器",
       "seoDescription": "计算集装箱的 CBM（立方米）。为您的货物获取集装箱类型建议。"
     },
@@ -221,6 +225,8 @@
       "title": "纱线重量计算器",
       "description": "根据长度和支数计算纱线重量",
       "countSystem": "支数系统",
+      "ne": "Ne (英制支数)",
+      "tex": "Tex",
       "length": "长度 (米)",
       "yarnCount": "纱线支数",
       "weight": "重量",
@@ -278,6 +284,8 @@
     "title": "广告招商",
     "description": "触达全球纺织工程师、跟单员和设计师 | 高流量、精准用户群体",
     "cta": "联系我们",
-    "sponsored": "广告"
+    "sponsored": "广告",
+    "alt": "广告招商",
+    "advertisement": "广告"
   }
 }

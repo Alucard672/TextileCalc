@@ -89,6 +89,10 @@
       "quantity": "Quantity (boxes)",
       "totalCBM": "Total CBM (m³)",
       "containerSuggestion": "Container Suggestion",
+      "container20ft": "20 फीट कंटेनर",
+      "container40ft": "40 फीट कंटेनर",
+      "container40hc": "40 फीट हाई क्यूब कंटेनर",
+      "containerMultiple": "कई कंटेनर आवश्यक",
       "seoTitle": "CBM Calculator - Container Volume Calculator",
       "seoDescription": "Calculate CBM (cubic meters) for shipping containers. Get container type suggestions for your cargo."
     },
@@ -195,6 +199,8 @@
     "title": "विज्ञापन जगह उपलब्ध",
     "description": "दुनिया भर के वस्त्र इंजीनियरों, व्यापारियों और डिजाइनरों तक पहुंचें | उच्च ट्रैफिक, लक्षित दर्शक",
     "cta": "हमसे संपर्क करें",
-    "sponsored": "प्रायोजित"
+    "sponsored": "प्रायोजित",
+    "alt": "विज्ञापन जगह उपलब्ध",
+    "advertisement": "विज्ञापन"
   }
 }

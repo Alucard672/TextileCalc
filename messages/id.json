@@ -89,6 +89,10 @@
       "quantity": "Quantity (boxes)",
       "totalCBM": "Total CBM (m³)",
       "containerSuggestion": "Container Suggestion",
+      "container20ft": "Kontainer 20ft",
+      "container40ft": "Kontainer 40ft",
+      "container40hc": "Kontainer High Cube 40ft",
+      "containerMultiple": "Diperlukan Beberapa Kontainer",
       "seoTitle": "CBM Calculator - Container Volume Calculator",
       "seoDescription": "Calculate CBM (cubic meters) for shipping containers. Get container type suggestions for your cargo."
     },
@@ -195,6 +199,8 @@
     "title": "Iklan Tersedia",
     "description": "Jangkau insinyur tekstil, pedagang, dan desainer di seluruh dunia | Lalu lintas tinggi, audiens yang ditargetkan",
     "cta": "Hubungi Kami",
-    "sponsored": "Bersponsor"
+    "sponsored": "Bersponsor",
+    "alt": "Iklan Tersedia",
+    "advertisement": "Iklan"
   }
 }

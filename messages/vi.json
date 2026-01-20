@@ -89,6 +89,10 @@
       "quantity": "Quantity (boxes)",
       "totalCBM": "Total CBM (m³)",
       "containerSuggestion": "Container Suggestion",
+      "container20ft": "Container 20ft",
+      "container40ft": "Container 40ft",
+      "container40hc": "Container High Cube 40ft",
+      "containerMultiple": "Cần Nhiều Container",
       "seoTitle": "CBM Calculator - Container Volume Calculator",
       "seoDescription": "Calculate CBM (cubic meters) for shipping containers. Get container type suggestions for your cargo."
     },
@@ -195,6 +199,8 @@
     "title": "Quảng Cáo",
     "description": "Tiếp cận kỹ sư dệt may, thương nhân và nhà thiết kế trên toàn thế giới | Lưu lượng cao, đối tượng mục tiêu",
     "cta": "Liên Hệ",
-    "sponsored": "Được Tài Trợ"
+    "sponsored": "Được Tài Trợ",
+    "alt": "Quảng Cáo",
+    "advertisement": "Quảng Cáo"
   }
 }

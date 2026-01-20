@@ -89,6 +89,10 @@
       "quantity": "Quantity (boxes)",
       "totalCBM": "Total CBM (m³)",
       "containerSuggestion": "Container Suggestion",
+      "container20ft": "20 فٹ کنٹینر",
+      "container40ft": "40 فٹ کنٹینر",
+      "container40hc": "40 فٹ ہائی کیوب کنٹینر",
+      "containerMultiple": "متعدد کنٹینرز درکار",
       "seoTitle": "CBM Calculator - Container Volume Calculator",
       "seoDescription": "Calculate CBM (cubic meters) for shipping containers. Get container type suggestions for your cargo."
     },
@@ -195,6 +199,8 @@
     "title": "اشتہار کی جگہ دستیاب",
     "description": "دنیا بھر کے ٹیکسٹائل انجینئرز، تاجروں اور ڈیزائنرز تک پہنچیں | اعلی ٹریفک، ہدف والے سامعین",
     "cta": "ہم سے رابطہ کریں",
-    "sponsored": "اسپانسر شدہ"
+    "sponsored": "اسپانسر شدہ",
+    "alt": "اشتہار کی جگہ دستیاب",
+    "advertisement": "اشتہار"
   }
 }

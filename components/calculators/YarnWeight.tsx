@@ -75,8 +75,8 @@ export function YarnWeight() {
                 <SelectValue />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="ne">Ne (English Count)</SelectItem>
-                <SelectItem value="tex">Tex</SelectItem>
+                <SelectItem value="ne">{t('ne')}</SelectItem>
+                <SelectItem value="tex">{t('tex')}</SelectItem>
               </SelectContent>
             </Select>
           </div>

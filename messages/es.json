@@ -107,6 +107,10 @@
       "quantity": "Cantidad (cajas)",
       "totalCBM": "CBM Total (m³)",
       "containerSuggestion": "Sugerencia de Contenedor",
+      "container20ft": "Contenedor de 20 pies",
+      "container40ft": "Contenedor de 40 pies",
+      "container40hc": "Contenedor High Cube de 40 pies",
+      "containerMultiple": "Se Requieren Múltiples Contenedores",
       "seoTitle": "Calculadora CBM - Volumen de Contenedor",
       "seoDescription": "Calcular CBM (metros cúbicos) para contenedores de envío."
     },
@@ -213,6 +217,8 @@
     "title": "Anuncie Aquí",
     "description": "Llegue a ingenieros textiles, comerciantes y diseñadores en todo el mundo | Alto tráfico, audiencia dirigida",
     "cta": "Contáctenos",
-    "sponsored": "Patrocinado"
+    "sponsored": "Patrocinado",
+    "alt": "Anuncie Aquí",
+    "advertisement": "Anuncio"
   }
 }

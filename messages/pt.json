@@ -89,6 +89,10 @@
       "quantity": "Quantidade (caixas)",
       "totalCBM": "CBM Total (m³)",
       "containerSuggestion": "Sugestão de Contêiner",
+      "container20ft": "Contêiner de 20 pés",
+      "container40ft": "Contêiner de 40 pés",
+      "container40hc": "Contêiner High Cube de 40 pés",
+      "containerMultiple": "Múltiplos Contêineres Necessários",
       "seoTitle": "Calculadora CBM",
       "seoDescription": "Calcular CBM para contêineres de envio."
     },
@@ -195,6 +199,8 @@
     "title": "Anuncie Aqui",
     "description": "Alcance engenheiros têxteis, comerciantes e designers em todo o mundo | Alto tráfego, público-alvo",
     "cta": "Entre em Contato",
-    "sponsored": "Patrocinado"
+    "sponsored": "Patrocinado",
+    "alt": "Anuncie Aqui",
+    "advertisement": "Anúncio"
   }
 }

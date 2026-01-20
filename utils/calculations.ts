@@ -161,9 +161,13 @@ export function convertYarnCount(
 
 /**
  * Calculate resultant count for ply yarns
- * Formula: 1/Resultant = Sum(1/Count_i) for each ply
- * @param counts - Array of yarn counts (e.g., [32, 32] for 32s/2)
- * @param plies - Array of number of plies for each yarn (e.g., [1, 1] for 32s/2)
+ * Formula: 1/Resultant = Sum(1/(Count_i × Plies_i)) for each yarn
+ * For example: 32s/2 means 2 plies of 32s yarn
+ * 1/Resultant = 1/(32 × 2) = 1/64, so Resultant = 64s
+ * But for 32s/2 (two 32s yarns plied together), Resultant = 16s
+ * Correct formula: 1/Resultant = Sum(1/(Count_i × Plies_i))
+ * @param counts - Array of yarn counts (e.g., [32] for 32s/2, meaning one 32s yarn with 2 plies)
+ * @param plies - Array of number of plies for each yarn (e.g., [2] for 32s/2)
  */
 export function calculateResultantCount(
   counts: number[],
@@ -174,7 +178,8 @@ export function calculateResultantCount(
 
   let sum = 0;
   for (let i = 0; i < counts.length; i++) {
-    sum += plies[i] / counts[i];
+    // Correct formula: 1/Resultant = Sum(1/(Count × Plies))
+    sum += 1 / (counts[i] * plies[i]);
   }
 
   if (sum === 0) return 0;
@@ -306,7 +311,7 @@ export function calculateCBM(
  * @param cbm - Total CBM
  * @returns Container type suggestion
  */
-export function suggestContainer(cbm: number): string {
+export function suggestContainer(cbm: number): 'container20ft' | 'container40ft' | 'container40hc' | 'containerMultiple' | '' {
   if (cbm <= 0) return '';
 
   // Standard container capacities (approximate)
@@ -315,13 +320,13 @@ export function suggestContainer(cbm: number): string {
   // 40ft HQ (High Cube): ~76 CBM
 
   if (cbm <= 33) {
-    return '20ft Container';
+    return 'container20ft';
   } else if (cbm <= 67) {
-    return '40ft Container';
+    return 'container40ft';
   } else if (cbm <= 76) {
-    return '40ft HQ Container';
+    return 'container40hc';
   } else {
-    return 'Multiple Containers Required';
+    return 'containerMultiple';
   }
 }
 
@@ -426,9 +431,15 @@ export function calculateWeaveBeamWeight(
 
 /**
  * Calculate fabric production per hour
- * Formula: Production (m/h) = (RPM × Efficiency × 60) / PPI
- * @param rpm - Loom speed in revolutions per minute
- * @param ppi - Picks per inch
+ * Formula: Production (m/h) = (RPM × Efficiency% × 60) / PPI × 0.0254
+ * Explanation:
+ * - RPM = revolutions per minute (picks per minute)
+ * - Effective picks per minute = RPM × (Efficiency / 100)
+ * - Inches per minute = Effective picks per minute / PPI
+ * - Meters per minute = Inches per minute × 0.0254
+ * - Meters per hour = Meters per minute × 60
+ * @param rpm - Loom speed in revolutions per minute (picks per minute)
+ * @param ppi - Picks per inch (weft density)
  * @param efficiency - Efficiency percentage (e.g., 85 for 85%)
  */
 export function calculateFabricProduction(
@@ -437,10 +448,20 @@ export function calculateFabricProduction(
   efficiency: number
 ): number {
   if (rpm <= 0 || ppi <= 0 || efficiency <= 0) return 0;
+  
+  // Effective picks per minute considering efficiency
+  const effectivePicksPerMinute = (rpm * efficiency) / 100;
+  
+  // Inches per minute = effective picks per minute / picks per inch
+  const inchesPerMinute = effectivePicksPerMinute / ppi;
+  
   // Convert inches to meters: 1 inch = 0.0254 meters
-  const productionPerMinute = (rpm * efficiency) / 100 / ppi;
-  const productionPerHour = productionPerMinute * 60 * 0.0254; // Convert to meters
-  return productionPerHour;
+  const metersPerMinute = inchesPerMinute * 0.0254;
+  
+  // Meters per hour
+  const metersPerHour = metersPerMinute * 60;
+  
+  return metersPerHour;
 }
 
 /**
@@ -586,11 +607,12 @@ export function calculateFabricYardageFromYards(yards: number, widthInches: numb
 
 /**
  * Convert meters to yards
- * Formula: Yards = Meters / 0.9144
+ * Formula: Yards = Meters × 1.09361 (or Meters / 0.9144)
+ * (1 meter = 1.09361 yards, or 1 yard = 0.9144 meters)
  */
 export function convertMetersToYards(meters: number): number {
   if (meters < 0) return 0;
-  return meters / 0.9144;
+  return meters * 1.09361;
 }
 
 /**

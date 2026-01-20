@@ -22,7 +22,7 @@ export function CBMCalculator() {
   const t = useTranslations('tools.cbmCalculator');
   const commonT = useTranslations('common');
   const errorsT = useTranslations('common.errors');
-  const [results, setResults] = useState<{ cbm: number; container: string } | null>(null);
+  const [results, setResults] = useState<{ cbm: number; containerKey: 'container20ft' | 'container40ft' | 'container40hc' | 'containerMultiple' | '' } | null>(null);
   
   // Create schema with translated error messages
   const schema = z.object({
@@ -42,8 +42,8 @@ export function CBMCalculator() {
 
   const onSubmit = (data: FormData) => {
     const cbm = calculateCBM(data.length, data.width, data.height, data.quantity);
-    const container = suggestContainer(cbm);
-    setResults({ cbm, container });
+    const containerKey = suggestContainer(cbm);
+    setResults({ cbm, containerKey });
   };
 
   return (
@@ -123,7 +123,7 @@ export function CBMCalculator() {
             <div className="p-4 bg-slate-100 rounded-lg">
               <div className="text-sm text-slate-600 mb-1">{t('containerSuggestion')}</div>
               <div className="text-xl font-semibold text-blue-600">
-                {results.container}
+                {results.containerKey ? t(results.containerKey) : ''}
               </div>
             </div>
           </div>
