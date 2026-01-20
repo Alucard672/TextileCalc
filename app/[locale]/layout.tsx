@@ -43,19 +43,13 @@ export default async function LocaleLayout({
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
   return (
-    <html lang={locale}>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      </head>
-      <body className="flex flex-col min-h-screen font-sans antialiased">
-        {gaId && <GoogleAnalytics gaId={gaId} />}
-        <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <>
+      {gaId && <GoogleAnalytics gaId={gaId} />}
+      <NextIntlClientProvider messages={messages}>
+        <Navbar />
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </NextIntlClientProvider>
+    </>
   );
 }
