@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
+import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -21,19 +21,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body className="flex flex-col min-h-screen font-sans antialiased">
-        {/* Google tag (gtag.js) */}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${gaId}');
-          `}
-        </Script>
+        <GoogleAnalytics gaId={gaId} />
         {children}
       </body>
     </html>

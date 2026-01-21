@@ -14,8 +14,8 @@ export function GoogleAnalytics({ gaId }: GoogleAnalyticsProps) {
   return (
     <>
       <Script
-        strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+        strategy="afterInteractive"
       />
       <Script
         id="google-analytics"
@@ -25,9 +25,7 @@ export function GoogleAnalytics({ gaId }: GoogleAnalyticsProps) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${gaId}', {
-              page_path: window.location.pathname,
-            });
+            gtag('config', '${gaId}');
           `,
         }}
       />
