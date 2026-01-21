@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { Navbar } from '@/components/shared/Navbar';
 import { Footer } from '@/components/shared/Footer';
-import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import '../globals.css';
 
 export function generateStaticParams() {
@@ -40,11 +40,11 @@ export default async function LocaleLayout({
     messages = {};
   }
 
-  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+  const gaId = process.env.NEXT_PUBLIC_GA_ID || 'G-00FPMBBSLH';
 
   return (
     <>
-      {gaId && <GoogleAnalytics gaId={gaId} />}
+      <GoogleAnalytics gaId={gaId} />
       <NextIntlClientProvider messages={messages}>
         <Navbar />
         <main className="flex-1">{children}</main>
