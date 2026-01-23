@@ -179,6 +179,24 @@
       "weight": "Weight Conversion",
       "seoTitle": "Textile Unit Converter - Length & Weight Conversion",
       "seoDescription": "Convert between yards/meters and pounds/kilograms. Essential unit conversion tool for textile industry."
+    },
+    "fabricShrinkage": {
+      "title": "فبرک سکڑاؤ کیلکولیٹر",
+      "description": "دھونے کے بعد فبرک سکڑاؤ فیصد کا حساب لگائیں",
+      "originalLength": "اصل لمبائی (سینٹی میٹر یا انچ)",
+      "afterWashLength": "دھونے کے بعد لمبائی (سینٹی میٹر یا انچ)",
+      "shrinkage": "سکڑاؤ",
+      "seoContent": {
+        "howToUse": "کیسے استعمال کریں",
+        "howToUseText": "اصل لمبائی اور دھونے کے بعد کی لمبائی درج کریں۔ کیلکولیٹر سکڑاؤ فیصد کا حساب لگائے گا۔",
+        "formula": "فارمولا",
+        "formulaText": "سکڑاؤ % = ((اصل لمبائی - دھونے کے بعد لمبائی) / اصل لمبائی) × 100",
+        "importance": "اہمیت",
+        "importanceText": "فبرک سکڑاؤ کو سمجھنا کپڑوں کے سائز، پیٹرن بنانے اور معیار کنٹرول کے لیے بہت اہم ہے۔"
+      },
+      "seoTitle": "فبرک سکڑاؤ کیلکولیٹر - فبرک سکڑاؤ فیصد کا حساب لگائیں",
+      "seoDescription": "دھونے کے بعد فبرک سکڑاؤ فیصد کا حساب لگائیں۔ کپڑے کی پیداوار اور معیار کنٹرول کے لیے ضروری۔",
+      "keywords": "فبرک سکڑاؤ، سکڑاؤ کیلکولیٹر، فبرک معیار، کپڑوں کا سائز، معیار کنٹرول"
     }
   },
   "home": {

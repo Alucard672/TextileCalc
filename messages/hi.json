@@ -179,6 +179,24 @@
       "weight": "Weight Conversion",
       "seoTitle": "Textile Unit Converter - Length & Weight Conversion",
       "seoDescription": "Convert between yards/meters and pounds/kilograms. Essential unit conversion tool for textile industry."
+    },
+    "fabricShrinkage": {
+      "title": "फैब्रिक सिकुड़न कैलकुलेटर",
+      "description": "धोने के बाद फैब्रिक सिकुड़न प्रतिशत की गणना करें",
+      "originalLength": "मूल लंबाई (सेमी या इंच)",
+      "afterWashLength": "धोने के बाद लंबाई (सेमी या इंच)",
+      "shrinkage": "सिकुड़न",
+      "seoContent": {
+        "howToUse": "कैसे उपयोग करें",
+        "howToUseText": "मूल लंबाई और धोने के बाद की लंबाई दर्ज करें। कैलकुलेटर सिकुड़न प्रतिशत की गणना करेगा।",
+        "formula": "सूत्र",
+        "formulaText": "सिकुड़न % = ((मूल लंबाई - धोने के बाद लंबाई) / मूल लंबाई) × 100",
+        "importance": "महत्व",
+        "importanceText": "फैब्रिक सिकुड़न को समझना कपड़े के आकार, पैटर्न बनाने और गुणवत्ता नियंत्रण के लिए महत्वपूर्ण है।"
+      },
+      "seoTitle": "फैब्रिक सिकुड़न कैलकुलेटर - फैब्रिक सिकुड़न प्रतिशत की गणना करें",
+      "seoDescription": "धोने के बाद फैब्रिक सिकुड़न प्रतिशत की गणना करें। कपड़े उत्पादन और गुणवत्ता नियंत्रण के लिए आवश्यक।",
+      "keywords": "फैब्रिक सिकुड़न, सिकुड़न कैलकुलेटर, फैब्रिक गुणवत्ता, कपड़े का आकार, गुणवत्ता नियंत्रण"
     }
   },
   "home": {

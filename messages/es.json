@@ -197,6 +197,24 @@
       "weight": "Conversión de Peso",
       "seoTitle": "Convertidor de Unidades Textiles",
       "seoDescription": "Convertir entre yardas/metros y libras/kilogramos."
+    },
+    "fabricShrinkage": {
+      "title": "Calculadora de Contracción de Tela",
+      "description": "Calcular porcentaje de contracción de tela después del lavado",
+      "originalLength": "Longitud Original (cm o pulgadas)",
+      "afterWashLength": "Longitud Después del Lavado (cm o pulgadas)",
+      "shrinkage": "Contracción",
+      "seoContent": {
+        "howToUse": "Cómo Usar",
+        "howToUseText": "Ingrese la longitud original y la longitud después del lavado. La calculadora calculará el porcentaje de contracción.",
+        "formula": "Fórmula",
+        "formulaText": "Contracción % = ((Longitud Original - Longitud Después del Lavado) / Longitud Original) × 100",
+        "importance": "Importancia",
+        "importanceText": "Entender la contracción de tela es crucial para el tamaño de prendas, creación de patrones y control de calidad."
+      },
+      "seoTitle": "Calculadora de Contracción de Tela - Calcular Porcentaje de Contracción",
+      "seoDescription": "Calcular porcentaje de contracción de tela después del lavado. Esencial para producción de prendas y control de calidad.",
+      "keywords": "contracción de tela, calculadora de contracción, calidad de tela, tamaño de prendas, control de calidad"
     }
   },
   "home": {

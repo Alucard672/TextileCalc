@@ -179,6 +179,24 @@
       "weight": "Weight Conversion",
       "seoTitle": "Textile Unit Converter - Length & Weight Conversion",
       "seoDescription": "Convert between yards/meters and pounds/kilograms. Essential unit conversion tool for textile industry."
+    },
+    "fabricShrinkage": {
+      "title": "Kalkulator Penyusutan Kain",
+      "description": "Hitung persentase penyusutan kain setelah dicuci",
+      "originalLength": "Panjang Asli (cm atau inci)",
+      "afterWashLength": "Panjang Setelah Dicuci (cm atau inci)",
+      "shrinkage": "Penyusutan",
+      "seoContent": {
+        "howToUse": "Cara Menggunakan",
+        "howToUseText": "Masukkan panjang asli dan panjang setelah dicuci. Kalkulator akan menghitung persentase penyusutan.",
+        "formula": "Rumus",
+        "formulaText": "Penyusutan % = ((Panjang Asli - Panjang Setelah Dicuci) / Panjang Asli) × 100",
+        "importance": "Pentingnya",
+        "importanceText": "Memahami penyusutan kain sangat penting untuk ukuran pakaian, pembuatan pola, dan kontrol kualitas."
+      },
+      "seoTitle": "Kalkulator Penyusutan Kain - Hitung Persentase Penyusutan Kain",
+      "seoDescription": "Hitung persentase penyusutan kain setelah dicuci. Penting untuk produksi pakaian dan kontrol kualitas.",
+      "keywords": "penyusutan kain, kalkulator penyusutan, kualitas kain, ukuran pakaian, kontrol kualitas"
     }
   },
   "home": {

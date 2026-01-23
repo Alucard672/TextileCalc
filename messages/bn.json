@@ -179,6 +179,24 @@
       "weight": "Weight Conversion",
       "seoTitle": "Textile Unit Converter - Length & Weight Conversion",
       "seoDescription": "Convert between yards/meters and pounds/kilograms. Essential unit conversion tool for textile industry."
+    },
+    "fabricShrinkage": {
+      "title": "ফ্যাব্রিক সঙ্কোচন ক্যালকুলেটর",
+      "description": "ধোয়ার পর ফ্যাব্রিক সঙ্কোচন শতাংশ গণনা করুন",
+      "originalLength": "মূল দৈর্ঘ্য (সেমি বা ইঞ্চি)",
+      "afterWashLength": "ধোয়ার পর দৈর্ঘ্য (সেমি বা ইঞ্চি)",
+      "shrinkage": "সঙ্কোচন",
+      "seoContent": {
+        "howToUse": "কিভাবে ব্যবহার করবেন",
+        "howToUseText": "মূল দৈর্ঘ্য এবং ধোয়ার পর দৈর্ঘ্য লিখুন। ক্যালকুলেটর সঙ্কোচন শতাংশ গণনা করবে।",
+        "formula": "সূত্র",
+        "formulaText": "সঙ্কোচন % = ((মূল দৈর্ঘ্য - ধোয়ার পর দৈর্ঘ্য) / মূল দৈর্ঘ্য) × 100",
+        "importance": "গুরুত্ব",
+        "importanceText": "ফ্যাব্রিক সঙ্কোচন বোঝা পোশাকের আকার, প্যাটার্ন তৈরি এবং মান নিয়ন্ত্রণের জন্য অত্যন্ত গুরুত্বপূর্ণ।"
+      },
+      "seoTitle": "ফ্যাব্রিক সঙ্কোচন ক্যালকুলেটর - ফ্যাব্রিক সঙ্কোচন শতাংশ গণনা করুন",
+      "seoDescription": "ধোয়ার পর ফ্যাব্রিক সঙ্কোচন শতাংশ গণনা করুন। পোশাক উৎপাদন এবং মান নিয়ন্ত্রণের জন্য প্রয়োজনীয়।",
+      "keywords": "ফ্যাব্রিক সঙ্কোচন, সঙ্কোচন ক্যালকুলেটর, ফ্যাব্রিক মান, পোশাকের আকার, মান নিয়ন্ত্রণ"
     }
   },
   "home": {

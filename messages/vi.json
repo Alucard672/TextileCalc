@@ -179,6 +179,24 @@
       "weight": "Weight Conversion",
       "seoTitle": "Textile Unit Converter - Length & Weight Conversion",
       "seoDescription": "Convert between yards/meters and pounds/kilograms. Essential unit conversion tool for textile industry."
+    },
+    "fabricShrinkage": {
+      "title": "Máy tính Co Rút Vải",
+      "description": "Tính phần trăm co rút vải sau khi giặt",
+      "originalLength": "Chiều Dài Ban Đầu (cm hoặc inch)",
+      "afterWashLength": "Chiều Dài Sau Khi Giặt (cm hoặc inch)",
+      "shrinkage": "Co Rút",
+      "seoContent": {
+        "howToUse": "Cách Sử Dụng",
+        "howToUseText": "Nhập chiều dài ban đầu và chiều dài sau khi giặt. Máy tính sẽ tính phần trăm co rút.",
+        "formula": "Công Thức",
+        "formulaText": "Co Rút % = ((Chiều Dài Ban Đầu - Chiều Dài Sau Khi Giặt) / Chiều Dài Ban Đầu) × 100",
+        "importance": "Tầm Quan Trọng",
+        "importanceText": "Hiểu về co rút vải rất quan trọng đối với kích thước quần áo, tạo mẫu và kiểm soát chất lượng."
+      },
+      "seoTitle": "Máy tính Co Rút Vải - Tính Phần Trăm Co Rút Vải",
+      "seoDescription": "Tính phần trăm co rút vải sau khi giặt. Cần thiết cho sản xuất quần áo và kiểm soát chất lượng.",
+      "keywords": "co rút vải, máy tính co rút, chất lượng vải, kích thước quần áo, kiểm soát chất lượng"
     }
   },
   "home": {

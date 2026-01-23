@@ -179,6 +179,24 @@
       "weight": "Conversão de Peso",
       "seoTitle": "Conversor de Unidades Têxteis",
       "seoDescription": "Converter entre jardas/metros e libras/quilogramas."
+    },
+    "fabricShrinkage": {
+      "title": "Calculadora de Encolhimento de Tecido",
+      "description": "Calcular percentual de encolhimento de tecido após lavagem",
+      "originalLength": "Comprimento Original (cm ou polegadas)",
+      "afterWashLength": "Comprimento Após Lavagem (cm ou polegadas)",
+      "shrinkage": "Encolhimento",
+      "seoContent": {
+        "howToUse": "Como Usar",
+        "howToUseText": "Digite o comprimento original e o comprimento após a lavagem. A calculadora calculará o percentual de encolhimento.",
+        "formula": "Fórmula",
+        "formulaText": "Encolhimento % = ((Comprimento Original - Comprimento Após Lavagem) / Comprimento Original) × 100",
+        "importance": "Importância",
+        "importanceText": "Entender o encolhimento de tecido é crucial para dimensionamento de roupas, criação de padrões e controle de qualidade."
+      },
+      "seoTitle": "Calculadora de Encolhimento de Tecido - Calcular Percentual de Encolhimento",
+      "seoDescription": "Calcular percentual de encolhimento de tecido após lavagem. Essencial para produção de roupas e controle de qualidade.",
+      "keywords": "encolhimento de tecido, calculadora de encolhimento, qualidade de tecido, dimensionamento de roupas, controle de qualidade"
     }
   },
   "home": {

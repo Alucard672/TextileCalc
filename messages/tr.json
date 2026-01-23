@@ -179,6 +179,24 @@
       "weight": "Weight Conversion",
       "seoTitle": "Textile Unit Converter - Length & Weight Conversion",
       "seoDescription": "Convert between yards/meters and pounds/kilograms. Essential unit conversion tool for textile industry."
+    },
+    "fabricShrinkage": {
+      "title": "Kumaş Çekme Hesaplayıcı",
+      "description": "Yıkama sonrası kumaş çekme yüzdesini hesaplayın",
+      "originalLength": "Orijinal Uzunluk (cm veya inç)",
+      "afterWashLength": "Yıkama Sonrası Uzunluk (cm veya inç)",
+      "shrinkage": "Çekme",
+      "seoContent": {
+        "howToUse": "Nasıl Kullanılır",
+        "howToUseText": "Orijinal uzunluk ve yıkama sonrası uzunluğu girin. Hesaplayıcı çekme yüzdesini hesaplayacaktır.",
+        "formula": "Formül",
+        "formulaText": "Çekme % = ((Orijinal Uzunluk - Yıkama Sonrası Uzunluk) / Orijinal Uzunluk) × 100",
+        "importance": "Önemi",
+        "importanceText": "Kumaş çekmesini anlamak, giysi boyutlandırma, kalıp yapımı ve kalite kontrolü için çok önemlidir."
+      },
+      "seoTitle": "Kumaş Çekme Hesaplayıcı - Kumaş Çekme Yüzdesini Hesaplayın",
+      "seoDescription": "Yıkama sonrası kumaş çekme yüzdesini hesaplayın. Giysi üretimi ve kalite kontrolü için gerekli.",
+      "keywords": "kumaş çekme, çekme hesaplayıcı, kumaş kalitesi, giysi boyutlandırma, kalite kontrolü"
     }
   },
   "home": {
